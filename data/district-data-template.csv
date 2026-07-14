@@ -1,0 +1,2 @@
+name,population_total,population_male,population_female,area_sq_km,births,deaths,gram_panchayats,municipalities,municipal_corporations,urban_population,collector_name,state_contribution_percent,source_year,facts
+Example District,100000,51000,49000,1000.00,1200,450,100,2,0,45000,Collector Name,2.500,2025,"Replace this with a verified district fact."
