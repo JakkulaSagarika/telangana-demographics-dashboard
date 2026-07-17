@@ -14,6 +14,10 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = BASE_DIR.parent
+DATA_DIR = PROJECT_ROOT / "data"
+DEFAULT_WORKBOOK_PATH = DATA_DIR / "telangana_districts.xlsx"
+DISTRICT_GEOJSON_PATH = PROJECT_ROOT / "frontend" / "public" / "data" / "telangana-districts.geojson"
 
 
 # Quick-start development settings - unsuitable for production
@@ -39,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'demographics',
+    'demographics.apps.DemographicsConfig',
 ]
 
 MIDDLEWARE = [
@@ -51,9 +55,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-# React runs on a separate Vite port during development.
-CORS_ALLOWED_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173"]
 
 ROOT_URLCONF = 'config.urls'
 

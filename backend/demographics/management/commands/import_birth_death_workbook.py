@@ -9,6 +9,16 @@ def clean_name(value):
     return " ".join(str(value or "").strip().upper().split())
 
 
+def integer(value):
+    """Convert empty numeric cells to zero and explain invalid workbook values."""
+    if value in (None, ""):
+        return 0
+    try:
+        return int(value)
+    except (TypeError, ValueError) as error:
+        raise CommandError(f"Expected a whole number in the workbook, got {value!r}.") from error
+
+
 def records_by_district(sheet, district_column, name_column):
     """Count unique named local bodies in the provided source sheet."""
     values = set()
@@ -28,11 +38,11 @@ def read_local_bodies(sheet, body_type, birth_columns, death_columns):
         if birth_district and birth_name:
             key = (birth_district, clean_name(birth_name))
             records.setdefault(key, {"name": birth_name, "body_type": body_type, "births": 0, "deaths": 0, "births_male": 0, "births_female": 0, "deaths_male": 0, "deaths_female": 0})
-            records[key].update({"births": int(row[birth_columns[2]] or 0), "births_male": int(row[birth_columns[3]] or 0), "births_female": int(row[birth_columns[4]] or 0)})
+            records[key].update({"births": integer(row[birth_columns[2]]), "births_male": integer(row[birth_columns[3]]), "births_female": integer(row[birth_columns[4]])})
         if death_district and death_name:
             key = (death_district, clean_name(death_name))
             records.setdefault(key, {"name": death_name, "body_type": body_type, "births": 0, "deaths": 0, "births_male": 0, "births_female": 0, "deaths_male": 0, "deaths_female": 0})
-            records[key].update({"deaths": int(row[death_columns[2]] or 0), "deaths_male": int(row[death_columns[3]] or 0), "deaths_female": int(row[death_columns[4]] or 0)})
+            records[key].update({"deaths": integer(row[death_columns[2]]), "deaths_male": integer(row[death_columns[3]]), "deaths_female": integer(row[death_columns[4]])})
     return records
 
 
@@ -51,7 +61,10 @@ class Command(BaseCommand):
         path = options["workbook"]
         if not path.exists():
             raise CommandError(f"Workbook not found: {path}")
-        book = load_workbook(path, read_only=True, data_only=True)
+        try:
+            book = load_workbook(path, read_only=True, data_only=True)
+        except (OSError, ValueError) as error:
+            raise CommandError(f"Could not read workbook {path}: {error}") from error
         required = {"BIRTH COUNT", "DEATH_COUNT", "GRAM PANCHAYAT", "MUNICIPALITY", "MUNICIPAL CORPORATIN"}
         missing = required - set(book.sheetnames)
         if missing:
@@ -64,12 +77,12 @@ class Command(BaseCommand):
                 total = row[1]
                 if district and isinstance(total, (int, float)):
                     totals[district] = {
-                        "total": int(total),
-                        "male": int(row[2] or 0),
-                        "female": int(row[3] or 0),
-                        "gram_panchayat": int(row[6] or 0),
-                        "municipality": int(row[11] or 0),
-                        "corporation": int(row[16] or 0),
+                        "total": integer(total),
+                        "male": integer(row[2]),
+                        "female": integer(row[3]),
+                        "gram_panchayat": integer(row[6]),
+                        "municipality": integer(row[11]),
+                        "corporation": integer(row[16]),
                     }
             return totals
 

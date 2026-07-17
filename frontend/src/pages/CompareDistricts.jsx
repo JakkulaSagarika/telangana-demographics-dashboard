@@ -11,7 +11,7 @@ export default function CompareDistricts() {
   useEffect(() => { getDistricts().then(items => { const safeItems = Array.isArray(items) ? items : []; setDistricts(safeItems); setFirstSlug(safeItems[0]?.slug || ''); setSecondSlug(safeItems[1]?.slug || ''); setStatus('ready') }).catch(() => setStatus('error')) }, [])
   const [first, second] = useMemo(() => [districts.find(d => d.slug === firstSlug), districts.find(d => d.slug === secondSlug)], [districts, firstSlug, secondSlug])
   if (status === 'loading') return <div className="loading">Loading district comparison…</div>
-  if (status === 'error') return <div className="notice">Comparison data could not load. Check that Django is running on port 8002, then refresh this page.</div>
+  if (status === 'error') return <div className="notice">Comparison data could not load. Check that Django is running, then refresh this page.</div>
   if (!first || !second) return <div className="notice">At least two imported district records are required for comparison.</div>
   const comparison = [{name:'Births', [first.name]:first.births, [second.name]:second.births}, {name:'Deaths', [first.name]:first.deaths, [second.name]:second.deaths}]
   const sex = [{name:'Male', [first.name]:first.births_male, [second.name]:second.births_male}, {name:'Female', [first.name]:first.births_female, [second.name]:second.births_female}]
