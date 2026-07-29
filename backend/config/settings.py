@@ -17,6 +17,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = BASE_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_WORKBOOK_PATH = DATA_DIR / "telangana_districts.xlsx"
+EDUCATION_DATA_DIR = DATA_DIR / "education"
+EDUCATION_LITERACY_CSV_PATH = EDUCATION_DATA_DIR / "literacy_literacy_rate.csv"
+EDUCATION_SCHOOLS_CSV_PATH = EDUCATION_DATA_DIR / "schools_colleges_enrollment_seats.csv"
 DISTRICT_GEOJSON_PATH = PROJECT_ROOT / "frontend" / "public" / "data" / "telangana-districts.geojson"
 
 
@@ -44,6 +47,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'demographics.apps.DemographicsConfig',
+    'education.apps.EducationConfig',
 ]
 
 MIDDLEWARE = [
