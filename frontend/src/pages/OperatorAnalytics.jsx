@@ -37,7 +37,7 @@ export default function OperatorAnalytics() {
       .catch((err) => setError(err.message));
   }, []);
 
-  const operators = overview?.owners || [];
+  const operators = overview?.operator_analytics || [];
 
   const totalOperators = overview?.owner_count || 0;
   const totalStations = overview?.station_count || 0;

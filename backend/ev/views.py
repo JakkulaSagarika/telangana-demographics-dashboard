@@ -75,8 +75,8 @@ def overview(request):
 
         owner_districts[owner][district] += 1
 
-    # Build operator analytics data
-    owners = []
+    # Complete operator data for Operator Analytics
+    operator_analytics = []
 
     for owner, station_count in owner_counts.most_common():
         district_distribution = [
@@ -88,7 +88,7 @@ def overview(request):
             in owner_districts.get(owner, Counter()).most_common()
         ]
 
-        owners.append({
+        operator_analytics.append({
             "name": owner,
             "station_count": station_count,
             "district_count": len(district_distribution),
@@ -100,13 +100,23 @@ def overview(request):
         "district_count": len(district_counts),
         "owner_count": len(owner_counts),
 
+        # KEEP THESE AS THEY WERE FOR THE EXISTING EV DASHBOARD
         "districts": [
             {
                 "name": district,
                 "station_count": count,
             }
-            for district, count in district_counts.most_common()
+            for district, count in district_counts.most_common(10)
         ],
 
-        "owners": owners,
+        "owners": [
+            {
+                "name": owner,
+                "station_count": count,
+            }
+            for owner, count in owner_counts.most_common(10)
+        ],
+
+        # NEW DATA ONLY FOR OPERATOR ANALYTICS
+        "operator_analytics": operator_analytics,
     })
