@@ -66,3 +66,25 @@ class EducationDistrict(models.Model):
         return sum((self.degree_college_seats, self.engineering_college_seats,
                     self.pharmacy_college_seats, self.mba_college_seats,
                     self.mca_college_seats, self.bed_college_seats, self.law_college_seats))
+
+
+class EducationDropout(models.Model):
+    """District-level dropout measures sourced only from the uploaded 2021-22 CSV."""
+
+    name = models.CharField(max_length=100, unique=True)
+    slug = models.SlugField(max_length=120, unique=True)
+    primary_enrollment = models.PositiveIntegerField(default=0)
+    upper_primary_enrollment = models.PositiveIntegerField(default=0)
+    high_school_enrollment = models.PositiveIntegerField(default=0)
+    primary_dropout_rate = models.FloatField(default=0)
+    upper_primary_dropout_rate = models.FloatField(default=0)
+    high_school_dropout_rate = models.FloatField(default=0)
+    estimated_primary_dropouts = models.PositiveIntegerField(null=True, blank=True)
+    estimated_upper_primary_dropouts = models.PositiveIntegerField(null=True, blank=True)
+    estimated_high_school_dropouts = models.PositiveIntegerField(null=True, blank=True)
+    data_year = models.CharField(max_length=20)
+    data_source = models.CharField(max_length=255)
+    count_note = models.TextField(blank=True)
+
+    class Meta:
+        ordering = ("name",)

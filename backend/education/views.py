@@ -1,6 +1,6 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import EducationDistrict
+from .models import EducationDistrict, EducationDropout
 
 
 def education_score(district, maxima):
@@ -115,5 +115,45 @@ def overview(request):
         "total_enrollment": sum(d.total_enrollment for d in ranked),
         "male_literacy_rate": round(male_literate / male_population * 100, 2) if male_population else 0,
         "female_literacy_rate": round(female_literate / female_population * 100, 2) if female_population else 0,
+        "districts": payload,
+    })
+
+
+def serialize_dropout(record, rank=None):
+    return {
+        "name": record.name,
+        "slug": record.slug,
+        "primary_enrollment": record.primary_enrollment,
+        "upper_primary_enrollment": record.upper_primary_enrollment,
+        "high_school_enrollment": record.high_school_enrollment,
+        "primary_dropout_rate": record.primary_dropout_rate,
+        "upper_primary_dropout_rate": record.upper_primary_dropout_rate,
+        "high_school_dropout_rate": record.high_school_dropout_rate,
+        "estimated_primary_dropouts": record.estimated_primary_dropouts,
+        "estimated_upper_primary_dropouts": record.estimated_upper_primary_dropouts,
+        "estimated_high_school_dropouts": record.estimated_high_school_dropouts,
+        "dropout_rate": round((record.primary_dropout_rate + record.upper_primary_dropout_rate + record.high_school_dropout_rate) / 3, 2),
+        "dropout_rank": rank,
+        "data_year": record.data_year,
+        "data_source": record.data_source,
+        "count_note": record.count_note,
+    }
+
+
+@api_view(["GET"])
+def dropout_overview(request):
+    records = list(EducationDropout.objects.all())
+    ranked = sorted(records, key=lambda record: (-record.high_school_dropout_rate, record.name))
+    payload = [serialize_dropout(record, index) for index, record in enumerate(ranked, start=1)]
+    total = lambda field: sum(getattr(record, field) or 0 for record in records)
+    rate_average = lambda field: round(sum(getattr(record, field) for record in records) / len(records), 2) if records else 0
+    return Response({
+        "district_count": len(records),
+        "estimated_primary_dropouts": total("estimated_primary_dropouts"),
+        "estimated_upper_primary_dropouts": total("estimated_upper_primary_dropouts"),
+        "estimated_high_school_dropouts": total("estimated_high_school_dropouts"),
+        "primary_dropout_rate": rate_average("primary_dropout_rate"),
+        "upper_primary_dropout_rate": rate_average("upper_primary_dropout_rate"),
+        "high_school_dropout_rate": rate_average("high_school_dropout_rate"),
         "districts": payload,
     })

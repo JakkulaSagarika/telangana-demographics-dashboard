@@ -11,9 +11,11 @@
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "leaflet": "latest",
+    "leaflet.markercluster": "^1.5.3",
     "react": "latest",
     "react-dom": "latest",
     "react-leaflet": "latest",
+    "react-leaflet-cluster": "^4.1.3",
     "react-router-dom": "latest",
     "recharts": "latest",
     "shpjs": "^6.2.0"

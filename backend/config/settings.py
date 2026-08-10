@@ -20,6 +20,8 @@ DEFAULT_WORKBOOK_PATH = DATA_DIR / "telangana_districts.xlsx"
 EDUCATION_DATA_DIR = DATA_DIR / "education"
 EDUCATION_LITERACY_CSV_PATH = EDUCATION_DATA_DIR / "literacy_literacy_rate.csv"
 EDUCATION_SCHOOLS_CSV_PATH = EDUCATION_DATA_DIR / "schools_colleges_enrollment_seats.csv"
+EDUCATION_DROPOUT_CSV_PATH = EDUCATION_DATA_DIR / "telangana_dropout_data_2021_22.csv"
+EV_CHARGING_STATIONS_CSV_PATH = DATA_DIR / "ev" / "EV_Charging_stations_details_April_2024.csv"
 DISTRICT_GEOJSON_PATH = PROJECT_ROOT / "frontend" / "public" / "data" / "telangana-districts.geojson"
 
 
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'demographics.apps.DemographicsConfig',
     'education.apps.EducationConfig',
+    'ev.apps.EvConfig',
 ]
 
 MIDDLEWARE = [

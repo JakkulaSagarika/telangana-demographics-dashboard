@@ -1,0 +1,771 @@
+﻿S.No.,Name of the EV Charging Station (Private / Public Charging Infra),State,District,Address,Latitude,Longitude,Name of the Owning Organisation/ Person
+1,K Krishnarjun Rao Filling Station IOCL,Telangana,Bhadradri Kothagudem,National Highway 221 Nakiripeta Telangana-507114,17.6420704,80.7100788,TATA Power Company Limited
+2,"IOCL-Sri Ravi FS, Palvancha",Telangana,Bhadradri,"Indira Nagar Colony, Khammam Vil-221,Kothagudem, Bhadrachalam, Telangana-507115",17.5987811,80.704213,TATA Power Company Limited
+3,IOCL Orugallu FS,Telangana,Hanamkonda,Humar Road shyampet Hanumakonda Telangana-506001,17.9852518,79.5716457,TATA Power Company Limited
+4,IOCL Balaji FS Yellapur,Telangana,Warangal,Warangal Karimnagar Hwy Yellapur Telangana-506731,18.0879889,79.0023376,TATA Power Company Limited
+5,IOCL Kindhula pullaiah Oil FS,Telangana,Bhadradri Kothagudem,Aswapuram Telangana-507116,17.8408068,80.8265143,TATA Power Company Limited
+6,IOCL Balaji Service Station Khamman,Telangana,Khammam,Khammam Urban Khammam dist Telangana-507003,17.2505731,80.1425963,TATA Power Company Limited
+7,IOCL Vishwambhara FS,Telangana,Mahaboobnagar,Warangal,18.1868759,79.6998741,TATA Power Company Limited
+8,IOCL Sudhakar SS Huzurabad,Telangana,Karimnagar,Huzurabad karimnagar dist Telangana-505468,18.2018989,79.3945188,TATA Power Company Limited
+9,IOCL Sri venkareshwara FS Banswada,Telangana,Kamareddy,Banswada Kamareddy Telangana- 503187,18.3952655,77.87759,TATA Power Company Limited
+10,IOCL Santosh SS Vemulawada,Telangana,Rajanna Sircilla,Vemulawada Telangana-505302,18.4598342,78.8657356,TATA Power Company Limited
+11,IOCL Sai baba Filling point varni,Telangana,Nizamabad,Varni S N Puram Nizamabad Telangana,18.5326769,75.7871246,TATA Power Company Limited
+12,IOCL Sri Ramakrishna FS Manthani Peddapally,Telangana,Karimnagar - Peddapalli,Manthani Peddapally Area Telangana-505184,18.6452,79.6684,TATA Power Company Limited
+13,IOCL Janapriya FS Yellandu,Telangana,Bhadradri Kothagudem,Yellandu Bhadradri Kothagudem Telangana-507123,17.5844055,80.0659615,TATA Power Company Limited
+14,IOCL Shiva Sai filling station (KSK) Gandhari,Telangana,Nizamabad,Gandhari kamareddy Nizamabad Telangana -503114,18.7443833,77.7159756,TATA Power Company Limited
+15,IOCL Sri laxmi narasimha swamy Filling st Birkoor,Telangana,Nizamabad,"Bikroor, Kamareddy Nizamabad Telangana-503321",18.4569676,77.79995457,TATA Power Company Limited
+16,IOCL Prakash FS Nizamabad,Telangana,Nizamabad,Nizamabad Lalitha Telangana- 503001,18.6840417,78.0042703,TATA Power Company Limited
+17,IOCL AP prison Department,Telangana,Warangal,"Mattewada, Warangal urban Telangana-506001",17.9945389,79.525725,TATA Power Company Limited
+18,IOCL sri sai venkateshwara FS Tekulpally,Telangana,Bhadradri Kothagudem,Khammam Telangana-507123,17.5596926,80.4792957,TATA Power Company Limited
+19,IOCL Yadadri Filling station,Telangana,Warangal,Warangal,17.9948936,79.4206553,TATA Power Company Limited
+20,Kona Vijay shankar filling station,Telangana,Malkajgiri Medchal,"Survey No. 227/1Bahadurpalle Village Qutubullapur Mandal, Telangana-500043",17.5613,78.4282,TATA Power Company Limited
+21,Srinidhi Service station Nizampet,Telangana,Ranga Reddy,"Survey No.305 Nizampet Village Qutubullapur madal, Telangana- 500049",17.5174,78.3786,TATA Power Company Limited
+22,Srinidhi Service station Nizampet,Telangana,Ranga Reddy,"Survey No.305 Nizampet Village Qutubullapur madal, Telangana- 500049",17.5174,78.3786,TATA Power Company Limited
+23,"Kona Vijay shankar filling station, Bahadurpalle",Telangana,Malkajgiri Medchal,"Survey No. 227/1Bahadurpalle Village Qutubullapur Mandal, Telangana-500043",17.5613,78.4282,TATA Power Company Limited
+24,SLNS FS Rangareddy Nanakramguda,Telangana,Ranga Reddy,"Survey No. 148/2, Nanakramguda serilingampally mandal Rangareddy dist telangana-500032",17.4196,78.3501,TATA Power Company Limited
+25,SLNS FS Rangareddy Nanakramguda,Telangana,Ranga Reddy,"Survey No. 148/2, Nanakramguda serilingampally mandal Rangareddy dist telangana-500032",17.4196,78.3501,TATA Power Company Limited
+26,Tejaswi Automobiles Siddipet,Telangana,Siddipet,"S.F. No. 198/3 Hyderabad Road, Pannala, beside HP petrol pump siddipet telangana-502103",18.1018,78.852,TATA Power Company Limited
+27,OPDSS Hotels &Resorts NH 65 Budhera,Telangana,Sanga Reddy,"NH 65 Near kamkol roll plaza Budhera, marpally road, telangana- 502345",NA,NA,TATA Power Company Limited
+28,"Hotel vididhi, kothagudem",Telangana,Nalgonda,"survey no. 173/2 174/6 state
+highway 2 Nam expressway miryalguda highway, modgulapally",16.9918,79.4406,TATA Power Company Limited
+29,Synergy car case champapet,Telangana,Ranga Reddy,"17-1+386/A/2/10, mallareddy complex beside SN reddy gardens sagar road champaper Hyderabad",17.3463,78.5196,TATA Power Company Limited
+30,OPDSS Hotels & Resorts Kanimetta,Telangana,Wanaparthy,"NH 44 Bangalore Hyderabad Hway mandal Kothakota kanimetta, Telangana-509381",16.426258,77.939407,TATA Power Company Limited
+31,Orange Auto Attapur,Telangana,Ranga Reddy,"opp pillar No.92, Door no. 13-6- 432/A Gudimalkapur Attapur, Hyderabad-500028",17.38,78.4269,TATA Power Company Limited
+32,Orange Auto Medchal,Telangana,Medchal Malkajgiri,Plot No.1 to 10 shree enclave athwelly village  medchal Hyderabad-501401,17.6467,78.4385,TATA Power Company Limited
+33,IOCL PSVL FS Mungala Mandal,Telangana,Suryapet,Barakathgudem vilage mungala mandal suryapet dist Telangana- 508201,17.0303,79.8545,TATA Power Company Limited
+34,IOCL Sri durgamata Nalgonda mandal,Telangana,Nalgonda,"IOCL dealer sy No. 350/Kha GV fudem, N# 65 Nalgonda Mandal Telangana-508001",17.0214664,79.2377007,TATA Power Company Limited
+35,IOCL Rajyalaxmi FP Mahaboobnagar,Telangana,Mahaboobnagar,NA,16.7650391,78.1253426,TATA Power Company Limited
+36,IOCl Durga Indhan Kando NH 9,Telangana,Sanga Reddy,"Sy No.809, Kandi village sangareddy mandal Telangana- 502285",17.5590633,78.0551691,TATA Power Company Limited
+37,IOCL Sai ratna Ro DVK Road,Telangana,Nalgonda,Indian oil dealer Sy No.128 DVK Road Nalgonda town Telangana- 508001,17.0433256,79.2640436,TATA Power Company Limited
+38,IOCL Sri sangameshwara FS Narayankhed,Telangana,Sanga Reddy,"Survey No.29/2AA H.No.2-3-153
+Narayankhed Sangareddy dist Telangana",18.0363502,77.7775758,TATA Power Company Limited
+39,IOCL RP FS Kattanagoor,Telangana,Nalgonda,"Indian oil dealer sy no. 28-32 Pamanagundla (V), kattanagoor
+(M) Telangana-508205",17.1784052,79.2578581,TATA Power Company Limited
+40,IOCL Sri Sai Raghava Sangareddy,Telangana,Sanga Reddy,Sy No. 123/AA Sangareddy Telangana-502001,17.6189498,78.093581,TATA Power Company Limited
+41,IOCL Laxmi Narasimha sadasivpet,Telangana,Sanga Reddy,NH. 65 survey No. 35/AA Suraram sadasivpet sangareddy Telangana-502291,17.6279308,77.9058223,TATA Power Company Limited
+42,IOCL Express way FS Malkapur,Telangana,Sanga Reddy,Indian Oil dealer sy no. 210 malkapur village Telangana- 502295,17.5972051,78.0538113,TATA Power Company Limited
+43,IOCL Sri sai FS Malkapur,Telangana,Sanga Reddy,Sy No. 369 malkapur kondapur sangareddy Telangana-502994,17.5993067,78.0493584,TATA Power Company Limited
+44,S4 Food court,Telangana,Siddipet,SH I sy No. 9/10 Rimmanaguda village Telangana-502312,17.8625,78.7413,TATA Power Company Limited
+45,IOCL Sri Balaji FS Huzurnagar,Telangana,Nalgonda,sy No. 243/A1 Gopalapuram (v) Huzurnagar Telangana 508204,16.9125607,79.8452118,TATA Power Company Limited
+46,IOCL 7 Hills FS Jedcharla,Telangana,Mahaboobnagar,Dhaba opp police s Trg center jadcherla Telangana-509301,16.7936602,78.1401494,TATA Power Company Limited
+47,IOCL Raja Rajeshwari FS Jogipet,Telangana,Medak,sy No. 86 jogipet medak dist Telangana-502273,17.9019942,77.9805793,TATA Power Company Limited
+48,IOCL Garine Koteshwara Rao & Co Kodada,Telangana,Suryapet,Main Road Khammam X Road Kodada Telangana-508206,16.9943051,79.9741113,TATA Power Company Limited
+49,IOCL Sainath Filling station medak,Telangana,Sanga Reddy,Kohir X Roads (GTK-2006) Medak Dist Telangana-502321,17.6608051,77.7224113,TATA Power Company Limited
+50,Select cars SVP Road,Telangana,Warangal,No. 15-1-315 Sri Vishnu priya coplex SVP road (NH 163)beside Ramakrishna Theater,17.7992,79.5856,TATA Power Company Limited
+51,"Sree venkateshwara Motors, Bargaon",Telangana,Nizamabad,"No. 1/4, 1A Hyderabad Road Bargaon madhavngar Nizamabad, Telangana-503230",18.6564,77.8599,TATA Power Company Limited
+52,"Sree venkateshwara Motors, Adilabad",Telangana,Adilabad,"No. 1/4, 1A Hyderabad Road Bargaon madhavngar Nizamabad, Telangana-503230",18.561,77.2459,TATA Power Company Limited
+53,"Sree venkateshwara Motors, Nirmal",Telangana,Nirmal,"No. 1/4, 1A Hyderabad Road Bargaon madhavngar Nizamabad, Telangana-503230",19.0822,78.3609,TATA Power Company Limited
+54,"Sree venkateshwara Motors, Kamareddy",Telangana,Kamareddy,"No. 1/4, 1A Hyderabad Road Bargaon madhavngar Nizamabad, Telangana-503230",17.9969,78.1566,TATA Power Company Limited
+55,Sree venkateshwara Motors Ayesh gardens,Telangana,Nizamabad,4-1-16/2 opp Ayesh garden Achanpally Bodhan,18.6785,77.9165,TATA Power Company Limited
+56,IOCL Adhoc AP Prison,Telangana,Warangal,Humar Road FS X HSH+6x2 Ramannapet Warangal Telangana- 506002,17.980503,79.5770141,TATA Power Company Limited
+57,IOCl Sai SS Elakaturty,Telangana,Mahaboobnagar,Elkaturty warangal urban dist karimnagar-505476,18.0962919,79.4460323,TATA Power Company Limited
+58,IOCL Sai leela FS Kundanpally,Telangana,Karimnagar,"sy No. 301, Kundanpally Ramagundam karimnagar dist Telangana",18.482853,77.9489108,TATA Power Company Limited
+59,IOCL Sri vyshnavi service station -sathupally,Telangana,Khammam,Kistaram sattupalli Khammam dist Telangana,17.2094711,80.7634149,TATA Power Company Limited
+60,IOCL Man air petro FS,Telangana,Karimnagar,Sy.2-60 291/A Karimnagar town Telangana-505001,18.4377226,78.8486702,TATA Power Company Limited
+61,IOCL  Shiva sai filling point Hanamkonda,Telangana,Warangal,Waddepally Hanmakonda warangal urban Telangana-506370,17.991101,79.5333041,TATA Power Company Limited
+62,IOCL NSLV Auto service,Telangana,Khammam,NA,17.1554657,79.8321764,TATA Power Company Limited
+63,"IOCL - Sri Sainath Filling Station, Mavala",Telangana,Adilabad,"IOCL - Sri Sainath Filling Station, Mavala,Mavala,S V Hanuman,Adilabad",19.6466277,78.5135097,TATA Power Company Limited
+64,"IOCL - UNI TRADERS, Itikyal
+Mandal",Telangana,"Jogulamba, Gadwal","IOCL - UNI TRADERS, Itikyal
+Mandal,Itikyal,Itikyal,Jogulamba, Gadwal",15.9181493,78.0164394,TATA Power Company Limited
+65,"IOCL  Raghu Vamsi Fs, Mahabubnagar",Telangana,Mahabubna gar,"IOCL  Raghu Vamsi Fs, Mahabubnagar,Alampur,Mahabub nagar,Mahabubnagar",16.7614385,78.0563851,TATA Power Company Limited
+66,"TML Venkata ramana Motors, Kukatpally",Telangana,Medchal,"TML Venkata ramana Motors, Kukatpally,Kukatpally,Kukatpally, Balanagar,Medchal",17.4881622,78.3859159,TATA Power Company Limited
+67,"TML Venkataramana Motors, Vikarabad",Telangana,Vikarabad,"TML Venkataramana Motors, Vikarabad,Dannaram,Vikarabad,V ikarabad",17.4248759,78.4091293,TATA Power Company Limited
+68,"TML Venkataramana Motors, Thandur",Telangana,Vikarabad,"TML Venkataramana Motors, Thandur,Thandur,Thandur,Vikara bad",17.2850506,77.5010502,TATA Power Company Limited
+69,"Venkataramana Motors, Gachibowli",Telangana,Hyderabad,"Venkataramana Motors, Gachibowli,Gachibowli,Gachibow li,Hyderabad",17.4637693,78.3572892,TATA Power Company Limited
+70,"IOCL - SRI SAI RAGHAVA,
+Sangareddy",Telangana,Hyderabad,"Sangareddy,Sangareddy,Sangared dy","17.5993016,",78.0515471,TATA Power Company Limited
+71,"IOCL - Bhargavl Fs, Mahabubabad",Telangana,Hyderabad,"Mahabubabad,Mahabubabad,Mah abubabad",17.6022189,80.0060226,TATA Power Company Limited
+72,IOCL-JalGanesh Fs,Telangana,Hyderabad,"N. Venkatpuram(Mulugu),N. Venkatpuram(Mulugu),N. Venkatpuram(Mulugu)",18.3121621,80.5483282,TATA Power Company Limited
+73,"IOCL - Ganapathy Fs, Jaipur",Telangana,Hyderabad,"Chennur,Chennur,Chennur",18.8757438,79.4088339,TATA Power Company Limited
+74,IOCL - Police Petrol Pump,Telangana,Hyderabad,"Adilabad Town,Adilabad Town,Adilabad Town",19.669739,78.522022,TATA Power Company Limited
+75,IOCL - Chakka Venkata Subba Rao,Telangana,Hyderabad,"Bhadrachalam,Bhadrachalam,Bha drachalam",17.672802,80.888879,TATA Power Company Limited
+76,"IOCL • Onkar Roadlines FP, Andagullapally,",Telangana,Hyderabad,"Peddapalli,Peddapalli,Peddapalli",18.6172266,79.4101607,TATA Power Company Limited
+77,"IOCL - Kalyani Fs, Oglapur",Telangana,Hyderabad,"Damera (Hanamkonda
+Rural),Damera (Hanamkonda Rural),Damera (Hanamkonda Rural)",18.0310952,79.552493,TATA Power Company Limited
+78,"IOCL - Coco Malleboinapally, Mahabubnagar",Telangana,Hyderabad,"Mahabubnagar,Mahabubnagar,Ma habubnagar",16.9388512,78.1818625,TATA Power Company Limited
+79,"IOCL - Hitech Fp, Mahabubnagar",Telangana,Hyderabad,"Mahabubnagar town III,Mahabubnagar town III,Mahabubnagar town III",16.7471237,77.9803768,TATA Power Company Limited
+80,"IOCL - Raja Rajeshwara F/P, Gangadhara",Telangana,Hyderabad,"Gangadhara,Gangadhara,Karimna gar",18.5659834,78.9872236,TATA Power Company Limited
+81,IOCL - Abhirama As,Telangana,Hyderabad,"Khammam,Khammam,Khamma m",17.5023269,78.4228867,TATA Power Company Limited
+82,"Raju gari Ruchulu Highway Restaurants, NH65",Telangana,Hyderabad,"Raju gari Ruchulu Highway Restaurants, NH65, Suryapet",17.1556787,79.597399,TATA Power Company Limited
+83,7 Food Court (People Combine Pvt Ltd),Telangana,Hyderabad,"7 Food Court (People Combine Pvt Ltd), Suryapet",17.1507847,79.5726457,TATA Power Company Limited
+84,Kun Hyundai - Lakshmi Hyundai,Telangana,Hyderabad,"Kun Hyundai - Lakshmi Hyundai, Auto Nagar Saroornagar",17.3469405,78.5496547,TATA Power Company Limited
+85,"IOCL - SRI RENUKA YELLAMMA FS,
+Lingareddypally",Telangana,Hyderabad,"IOCL - SRI RENUKA YELLAMMA FS,
+Lingareddypally",18.0803034,78.8106496,TATA Power Company Limited
+86,"TML-Select Cars, Hyderabad Rd - Kothirampur",Telangana,Hyderabad,"Karimnagar Town,Karimnagar Town,Karimnagar Town",18.4194114,79.1271112,TATA Power Company Limited
+87,"TML-Venkataramana Motors, ECIL",Telangana,Hyderabad,"ECIL,ECIL,Medchal Malkajgiri",17.5023269,78.4228867,TATA Power Company Limited
+88,"TML-Sri Venkataramana Motors, Hyderabad Road",Telangana,Hyderabad,"Rajampet ,Rajampet ,Kamareddy",18.0777531,78.1304549,TATA Power Company Limited
+89,"TML-Venkataramana Motors, Vansthalipuram",Telangana,Hyderabad,"Vanasthalipuram,Vanasthalipuram
+,Hyderabed",17.4198717,78.4207402,TATA Power Company Limited
+90,Sri Sai Family & Kanchetty Restaurant,Telangana,Nizamabad,"Sri Sai Family & Kanchetty Restaurant, Mittapally Village, Dichapally, Nizamabad",18.631857,78.1379628,TATA Power Company Limited
+91,Plot Doc. No: 7519/2019,Telangana,Jangaon,"Plot Doc. No: 7519/2019,Chagal
+,Station Ghanpur,Jangaon",NA,NA,Sri Kartikeya EV Motors Pvt Ltd
+92,"Co-Operative Bank colony, Nagole (V), Uppal Mandal, Medchal-Malkajgiri (DT)",Telangana,Medchal Malkajgiri,"Co-Operative Bank colony, Nagole (V), Uppal Mandal, Medchal- Malkajgiri (DT)",17.370208,78.561387,TTL Electric Fuel Pvt Ld
+93,CJG Filling Station,Telangana,Medchal Malkajgiri,"CJG Filling Station,Bandlaguda,Uppal,Medch al Malkajgiri",17.3706926,78.5683471,Bharath Petroleum Corporation Limited
+94,"M/s. Filmore - BPCL Dealer, Attapur, Opp. Piller No. 137",Telangana,Hyderabad,"M/s. Filmore - BPCL Dealer,
+Attapur, Opp. Piller No. 137,Attapur,Rajendranagar,Hyder abad",17.3657827,78.4281923,Bharath Petroleum Corporation Limited
+95,"Mailardevpally, Rajendranagar",Telangana,Hyderabad,"Mailardevpally, Rajendranagar,Mailardevpally,Raj endranagar,Hyderabad",17.31558,78.454251,Magenta EV Solutions Pvt Ltd
+96,"Puppalguda Village, Sy No.297, Gandipet, Narsingi",Telangana,Hyderabad,"Puppalguda Village, Sy No.297, Gandipet, Narsingi,Ranga Reddy",17.2417.0N,78.2000.1 E,Fresh Bus Private Limited
+97,"Opp 7 Food court, Suryapet, Telangana.",Telangana,Suryapet,"Opp 7 Food court, Suryapet, Telangana.",17.150332,79.575811,UPMEDIA Solutions
+98,"Khalender Nagar Community Hall, Santosh Nagar, Circle-7, GHMC Charminar Zone.",Telangana,Hyderabad,"Khalender Nagar Community Hall, Santosh Nagar, Circle-7, GHMC Charminar Zone.",17°20'43.5,78°30'18.8,ETO Motors Private Limited
+99,"Moghalpura Sports Complex, Moghalpura, Circle-9, GHMC Charminar Zone.",Telangana,Hyderabad,"Moghalpura Sports Complex, Moghalpura, Circle-9, GHMC Charminar Zone.",17°21'29.8,78°28'38.2,ETO Motors Private Limited
+100,"1-111, Dammaiguda, Hyderabad
+- 500083",Telangana,Hyderabad,"1-111, Dammaiguda, Hyderabad - 500083","17.502822,",78.588377,SUN Mobility Private Limited
+101,"Sushine Farmhouse, Kandukur village, Ranga Reddy Dist,",Telangana,Hyderabad,"Sushine Farmhouse, Kandukur village, Ranga Reddy Dist,",17.030953,78.4883894,BPN Projects Pvt Ltd
+102,"H.No.3-18, Mannanoor",Telangana,Nagar Kurnool,"H.No.3-18, Mannanoor, Amrabad, Nagarkurnool",16.2102,78.4503,Samisthi Aranya Resort
+103,"Baba Nagar, Nacharam X Roads",Telangana,Medchal - Malkajgiri,"Baba Nagar, Nacharam X Roads, medchal  malkajgiri",17.435672,78.55325,Manikya Anoop Kumar (Domestic)
+104,Bharath Petroleum Batasingaram Village.,Telangana,Ranga Reddy,"Bharath Petroleum Batasingaram Village, Abdullapur, Rangareddy",17.307435,78.72375,Bharath Petroleum Corporation Limited
+105,"5-3-32/2, Near Ramalayam Temple, Kukatpally",Telangana,Hyderabad,"5-3-32/2, Near Ramalayam Temple, Kukatpally, ranga reddy",17.4868829,78.41323,SUN Mobility Private Limited
+106,TSRTC Ranigunj Bus Depot,Telangana,Hyderabad,"TSRTC Ranigunj Bus Depot, Ranigunj, Secunderabad, Hyderabad-500003",17.4323664,78.48678444,TSRTC Ranigunj Bus Depot
+107,TSRTC Kukatpally Bus Depot,Telangana,Hyderabad,"TSRTC Kukatpally Bus Depot, Kukatpally, Moosapet 4
+Junction,Hyderabad - 500048",17.47337,78.42577,TSRTC Kukatpally Bus Depot
+108,TSRTC Jeedimetla Bus Depot,Telangana,Hyderabad,"TSRTC Jeedimetla Bus Depot, Jedimetla, Hyderabad - 500055",17.52825,78.439629,TSRTC Jeedimetla Bus Depot
+109,TSRTC Musheerabad 2 Bus Depot,Telangana,Hyderabad,"TSRTC Musheerabad-2 Bus Depot,  Musheerabad, Hyderabad - 500020",17.406853,78.50325,TSRTC Musheerabad Bus Depot
+110,TSRTC Hayathnagar 2 Bus Depot,Telangana,Hyderabad,"TSRTC Hayathnagar-2  Bus Depot, Hayath Nagar, Hyderabad - 501505",17.324934,78.5942843,TSRTC Hayathnagar Bus Depot
+111,TSRTC BHEL Depot,Telangana,Hyderabad,"Hayathnagar, Hyderabad-R. C. Puram,
+Hyderabad - 500032",17.5193979,78.29122066,TSRTC BHEL Depot
+112,"5-1-145/2, Plot No.99,
+Annapurna Colony,Meerpet Village, Uppal",Telangana,Hyderabad,"5-1-145/2, Plot No.99, Annapurna Colony,Meerpet Village, Uppal","17.442974,",78.566754,SUN Mobility Private Limited
+113,"H.No.3-145,Srinivas Colony, Near Gandhi Statue, Saroornagar",Telangana,Hyderabad,"H.No.3-145,Srinivas Colony, Near Gandhi Statue, Saroornagar","17.354269,",78.532134,SUN Mobility Private Limited
+114,"Survey No.193, Sri devi Kalyan Estate, Yapral village",Telangana,Ranga Reddy,"Survey No.193, Sri devi Kalyan Estate, Yapral village","17.500601,",78.539632,SUN Mobility Private Limited
+115,"Plot No. 26&27, Thokatta Village, Bowenpally, Secunderabad",Telangana,Ranga Reddy,"Plot No. 26&27, Thokatta Village, Bowenpally, Secunderabad","17.465531,",78.48146,SUN Mobility Private Limited
+116,"No. 10-3/A, Raju Colony, Balanagar",Telangana,Ranga Reddy,"No. 10-3/A, Raju Colony, Balanagar","17.464829,",78.45528,SUN Mobility Private Limited
+117,"Shop No. 36, H.No.8-4-
+315/6/1/B/36, B Laxmi Complex, Fatehnagar, Erragadda",Telangana,Ranga Reddy,"Shop No. 36, H.No.8-4-
+315/6/1/B/36, B Laxmi Complex, Fatehnagar, Erragadda","17.457491,",78. 43287,SUN Mobility Private Limited
+118,"H.No. 12-13-686, Nagarjuna nagar, Near Community Hall, Tarnaaka",Telangana,Ranga Reddy,"H.No. 12-13-686, Nagarjuna nagar, Near Community Hall, Tarnaaka","17.4278833,",78.54341,SUN Mobility Private Limited
+119,"No. 42-819, Old moulali, Malkajgiri",Telangana,Medchal Malkajgiri,"No. 42-819, Old moulali, Malkajgiri","17.462147,",78.560244,SUN Mobility Private Limited
+120,TSRTC Hayatnagar 1 Depot,Telangana,Ranga Reddy,TSRTC Hayatnagar 1 Depot,"17.326522,",78.592616,TSRTC Hayatnagar 1
+121,TSRTC  Kachiguda Bus Depot,Telangana,Hyderabad,TSRTC  Kachiguda Bus Depot,"17.38667,",78.49854,TSRTC  Kachiguda Bus Depot
+122,TSRTC  HCU Bus Depot,Telangana,Hyderabad,TSRTC  HCU Bus Depot,"17.468928,",78.33085,TSRTC  HCU Bus Depot
+123,"Sandeep Road carriers,",Telangana,Medchal Malkajgiri,"Sandeep Road carriers,Bharath Petroleum Corp Ltd  Medchal Village","17.613048,",78.487654,BPCL
+124,Sri lakshmi Venkateshwara Fuels,Telangana,Jogulamba Gadwal,"Sri lakshmi Venkateshwara Fuels,
+Bharath Petroleum Corp Ltd, Narayanapuram Village, Jogulamba Gadwal Dist",16.019617,77.950312,BPCL
+125,S.S Enterprises,Telangana,Wanaparthy,"S.S Enterprises, Bharath Petroleum Corp Ltd, Rangapur Village, Wanaparthy Dist",16.167584,77.951031,BPCL
+126,Tuba filling station,Telangana,Ranga Reddy,"Tuba filling station, Bharath Petroleum Corp Ltd, Palmakole, Ranga Reddy dist",17.189757,78.309087,BPCL
+127,BP Ameerpet,Telangana,Hyderabad,"BP Ameerpet, Bharath Petroleum Corp Ltd, Ameerpet, Hyderabad",17.437549,78.442743,BPCL
+128,Bandi Laxmikanthamma FS,Telangana,Medchal Malkajgiri,"Bandi Laxmikanthamma FS, Bharath Petroleum Corp Ltd, Aushapur Village, Ghatkesar",17.463766,78.729394,BPCL
+129,Lalitha Fuel Point,Telangana,Ranga Reddy,"Lalitha Fuel Point, Bharath Petroleum Corp Ltd, Raidurg, Gachibowli",17.418394,78.388416,BPCL
+130,Shabnams,Telangana,Ranga Reddy,"Shabnams Bharath Petroleum Corp Ltd, , Chintalkunta Old check post, L B Nagar,",17.342592,78.559211,BPCL
+131,Vamsi Fuel Point,Telangana,Ranga Reddy,"Vamsi Fuel Point Bharath Petroleum Corp Ltd, Gandipet Main Road",17.380681,78.41011,BPCL
+132,SVS Convention Velmalapally gate,Telangana,Nagarkurno ol,"SVS Convention Velmalapally gate, Vangoor mandal, Srisailam Highway",16.637313,78.635139,SVS Convention
+133,Khairatabad RTA inside the premises,Telangana,Hyderabad,Khairatabad RTA inside the premises,17.416693,78.458028,Sunrise Services Private Limited
+134,TSRTC Mehdipatnam Bus Depot,Telangana,Hyderabad,TSRTC Mehdipatnam Bus Depot,17.392238,78.440967,TSRTC Mehdipatnam Bus Depot
+135,Vishnu Shopping Mall,Telangana,Nalgonda,"Vishnu Shopping Mall, Nagarjuna Sagar Road, Kondamallepalli Village",16.7121,78.9815,BPN Projects Pvt Ltd
+136,Venkata Lakshmi Srinivasa Fuels,Telangana,Ranga Reddy,"Venkata Lakshmi Srinivasa Fuels, Raikal Village, Farooqnagar Mandal",16.98515,78.174615,BPCL
+137,Prabhuleela Filling Station,Telangana,Ranga Reddy,"Prabhuleela Filling Station, Bharath Petroleum Corp Ltd, Majeedpu Village",17.637986,78.569584,BPCL
+138,Sri Venkateshwara Fuels,Telangana,Ranga Reddy,"Sri Venkateshwara Fuels, Bharath Petroleum Corp Ltd, Ibrahimpatnam Village",17.182251,78.651562,BPCL
+139,Highway 79 Gas Station,Telangana,Mahabunaga r,"Highway 79 Gas Station, Bharath Petroleum Corp Ltd, Jadcherla Village",16.789396,78.138798,BPCL
+140,Abhinandan Fuel Station,Telangana,Ranga Reddy,"Abhinandan Fuel Station, Bharath Petroleum Corp Ltd, Muraharipally Village",17.675637,78.58835,BPCL
+141,Sarang Autolines,Telangana,Nizamabad,"Sarang Autolines, Bharath Petroleum Corp Ltd,Dichpally Village",18.58824,78.223664,BPCL
+142,BP- Adilabad-1,Telangana,Adilabad,"BP- Adilabad-1 Bharath Petroleum Corp Ltd, Bhoraj Village",19.741383,78.547314,BPCL
+143,Golf View Apartment parking space,Telangana,Ranga Reddy,"Golf View Apartment parking space No.B-25 & 25A, Nanakramguda, Serilingampally",17.420865,78.352304,Mr. Harsh Shukla (Individual)
+144,"Beside NH 65, Sy No. 256/2/1/2, Barakath gudem, Munagala, Suryapet",Telangana,Suryapet,"Beside NH 65, Sy No. 256/2/1/2, Barakath gudem, Munagala, Suryapet",,,G & T EV Charging Station and Food Court
+145,Amadabakula Filling Station,Telangana,Wanaparthy,"Amadabakula Filling Station, BPCL Amadabakula Village, kothakota, Vanaparthy",16.334946,77.949612,BPCL
+146,DKR Alivelamma Filling Station,Telangana,Mahabubna gar,"DKR Alivelamma Filling Station, BPCL, Sankalmandi Village",16.587259,77.966811,BPCL
+147,"G M Service Station, Bharath Petroleum Corp Ltd, Ghatkesar Village",Telangana,Medchal malkajgiri,"G M Service Station, Bharath Petroleum Corp Ltd, Ghatkesar Village, Medchal malkajgiri",17.446439,78.681975,BPCL
+148,"Garuda Filling Station, Bharath Petroleum Corporation Ltd, Gagillapur Village",Telangana,Medchal Malkajgiri,"Garuda Filling Station, Bharath
+Petroleum Corporation Ltd, Gagillapur Village, Dundigal, Medchal Malkajgiri",17.616402,78.387838,BPCL
+149,"Hill Top Filling Station, Bharath Petroleum Corp Ltd, Shaikpet Village, Hyderabad Dist",Telangana,Hyderabad,"Hill Top Filling Station, Bharath Petroleum Corp Ltd, Shaikpet Village, Hyderabad Dist",17.410167,78.399729,BPCL
+150,"Maruthi Filling Station, Bharath Petroleum Corporation Ltd, Thirumalagiri Village",Telangana,Nagarkurno ol,"Maruthi Filling Station, Bharath
+Petroleum Corporation Ltd, Thirumalagiri Village, Vangoor Nagarkurnool",16.565556,78.683013,BPCL
+151,"S.V. Goud Fuel Point, Bharath Petroleum Corporation Ltd, Jillelaguda Village",Telangana,Ranga Reddy,"S.V. Goud Fuel Point, Bharath Petroleum Corporation Ltd, Jillelaguda Village, Saroornagar,",17.335297,78.521142,BPCL
+152,"Sai Indhanam, Bharath Petroleum Corp Ltd, Manneguda Village",Telangana,Ranga Reddy,"Sai Indhanam, Bharath Petroleum Corp Ltd, Manneguda Village, Hayathnagar, Ranga Reddy",17.253136,78.586074,BPCL
+153,"Satya Bala Pure Fuels, Bharath Petroleum Corporation Ltd, Mummallapally Village",Telangana,Wanaparthy,"Satya Bala Pure Fuels, Bharath
+Petroleum Corporation Ltd, Mummallapally Village, Kothakota, Wanaparthy",16.3000999,77.952539,BPCL
+154,"Yashwanth Filling station, BPCL, Thumkunta Village, Medchal Malkajgiri District",Telangana,Medchal Malkajagiri,"Yashwanth Filling station, BPCL, Thumkunta Village, Medchal Malkajgiri District, Shamirpet",17.575245,78.551825,BPCL
+155,"Shah Petrofina BPCL,Narsingi Village, Ranga Reddy District",Telangana,Ranga Reddy,"Shah Petrofina BPCL,Narsingi Village, Ranga Reddy District, Gandipet",17.381018,78.366516,BPCL
+156,"Plot No.22, H.No.1-135/2A,
+Amangal Village",Telangana,Ranga Reddy,"Plot No.22, H.No.1-135/2A,
+Amangal Village, Rnagarddy",16.868262,78.529324,JK EV Charging Station
+157,"Sandhya Construction & Estates
+Private Ltd located at Old Mumbai Hwy next to HPCL, Mouryas Ranga Prasad Avenue,",Telangana,Ranga Reddy,"Sandhya Construction & Estates
+Private Ltd located at Old Mumbai Hwy next to HPCL, Mouryas Ranga Prasad Avenue,",17.443855,78.355476,Tecso Chargezone Ltd ( Conditional NOC)
+158,"Arfath Filling Station Bharath Petroleum Corporation Ltd, Nandigama mandal, RR Dist",Telangana,Rangareddy,"Arfath Filling Station Bharath Petroleum Corporation Ltd, Nandigama mandal, RR Dist",17.118959,78.269424,BPCL
+159,"Raghavendra Filling Station, Bharath Petroleum Corporation Ltd",Telangana,Nagarkurno ol,"Raghavendra Filling Station,
+Bharath Petroleum Corporation Ltd, Marchala Village, Kalwakurthy Mandal,",16.680883,78.480352,BPCL
+160,TS Police Welfare Society Bharath Petroleum Corporation Ltd,Telangana,Rangareddy,"TS Police Welfare Society Bharath
+Petroleum Corporation Ltd, Himayat Sagar Village, Gandipet Mandal, RR Dist",17.350415,78.362566,BPCL
+161,"Sri Laxmi Narasimha Filling Station, Bharath Petroleum Corporation Ltd",Telangana,Jogulamba Gadwal,"Sri Laxmi Narasimha Filling
+Station, Bharath Petroleum Corporation Ltd Narayanapuram Village, Manopad, Jogulamba",16.014621,77.936895,BPCL
+162,"Sri Lakshmi Bala Filling Station, Pitlam Village, Kamareddy Dist",Telangana,Kamareddy,"Sri Lakshmi Bala Filling Station, Pitlam Village, Kamareddy Dist",18.240196,77.816057,BPCL
+163,"Sri laxmi Narasimha Ayyappa FS, Bharath Petroleum Corporation Ltd",Telangana,Nizamabad,"Sri laxmi Narasimha Ayyappa FS,
+Bharath Petroleum Corporation Ltd, kammarpally Village, Nizamabad Dist",18.838721,78.520925,BPCL
+164,"Sri Siddhi Vinayaka Filling Station, Bharath Petroleum Corporation Ltd,",Telangana,Medak,"Sri Siddhi Vinayaka Filling
+Station, Bharath Petroleum Corporation Ltd, Budhera Village, Munipally Madal, Medak Dist",17.732415,77.841239,BPCL
+165,"Sri Vijaya Durga Filling Station, Bharath Petroleum Corporation Ltd",Telangana,Kamareddy,"Sri Vijaya Durga Filling Station,
+Bharath Petroleum Corporation Ltd, Kammajiwadi(kalvaral)
+Village, Sadashivnagar Mandal,",18.240522,77.816438,BPCL
+166,"Vishal Filling Station, Bharath Petroleum Corporation Ltd",Telangana,Nirmal,"Vishal Filling Station, Bharath
+Petroleum Corporation Ltd, Narasapoor Village, Dilwarpur mandal, Nirmal Dist",19.995586,78.154481,BPCL
+167,"Sri Renuka Petrol Filling Company, Bharath Petroleum Corporation Ltd",Telangana,Medak,"Sri Renuka Petrol Filling
+Company, Bharath Petroleum Corporation Ltd, Kollapalle Village, Shankarpet(A) Mandal,",18.056515,77.918143,BPCL
+168,Sai Siddhi Carriers Bharath Petroleum,Telangana,Ranga Reddy,"Sai Siddhi Carriers Bharath Petroleum, Bagh Hayathnagar (Auto nagar)",17.324878,78.604948,BPCL
+169,Sri Gopal service Station,Telangana,Ranga Reddy,"Sri Gopal service Station, Bharath Petroleum Corp Ltd, Gaganpahad Village, Ranga Reddy",17.30006,78.419018,BPCL
+170,Sri kanaka Durga Service Station,Telangana,Nizamabad,"Sri kanaka Durga Service Station, Bharath Petroleum Corp Ltd, Tekriyal Village, Nizamabad",18.3498,78.307176,BPCL
+171,Parnika Filling Station,Telangana,Mahaboobnagar,"Parnika Filling Station, Bharath Petroleum Corporation Ltd, jakler Village, Mahaboobnagar",16.562279,77.616075,BPCL
+172,"Technocrats Industrial Estate, Balanagar",Telangana,Medchal Malkajgiri,"Parking Space Unit B-23, Phsase- II, Technocrats Industrial Estate, Balanagar,",17.47304,78.44468,Ms Axonify at location parking
+173,"at location Plot No. 730, Road No. 36, Jubilee Hills",Telangana,Ranga Reddy,"Plot No. 730, Road No. 36, Jubilee Hills, Hyderabad – 500034",17.43805,78.39961,Ms SUN Mobility Pvt Ltd
+174,"Plot No.427, Road No.9,
+Kakatiya Hills, Guttala Begumpet (Madhapur), Hyderabad",Telangana,Ranga Reddy,"Plot No.427, Road No.9, Kakatiya Hills, Guttala Begumpet (Madhapur), Hyderabad",17.44691,78.39826,M/s. Voltron Electric
+175,"Beside Nagarjuna Cement
+Godown, Krishna Reddy Nagar, Mailardevpally Village,
+Rajendra Nagar Municipality,",Telangana,Ranga Reddy,"Beside Nagarjuna Cement
+Godown, Krishna Reddy Nagar, Mailardevpally Village, Rajendra
+Nagar Municipality, RR Dist.",17.315955,78.458859,M/s. Trinity Cleantech Private Limited
+176,"Ambadevi & Co.,",Telangana,Hydeabad,"Kandikal, Charminar Mandal, Hydeabad Dist",17.331037,78.488587,BPCL
+177,"B. Brahmaiah & Co.,",Telangana,Makthal,"Raichur Road, Makthal, Mahaboobnagar",16.503474,77.507381,BPCL
+178,Filpoint,Telangana,Ranga Reddy,"Filpoint, Bharath Petroleum Corporation Ltd, Gaganpahad, Rajendranagar, Rangareddy",17.2909055,78.416708,BPCL
+179,P. Narasimha Reddy & Sons.,Telangana,Mahaboobnagar,"P. Narasimha Reddy & Sons., Bharath Petroleum Corporation Ltd, Mahabubnagar",16.736593,77.988475,BPCL
+180,Ramanthapur FS,Telangana,Ranga Reddy,"Ramanthapur FS, BPCL, Ramanthapur Village, Revenue Mandal Uppal, Ranga Reddy",17.398169,78.53358,BPCL
+181,Ratan Filling Station,Telangana,Ranga Reddy,"Ratan Filling Station, Bharath
+Petroleum Corporation Ltd, Saroornagar (Old) Village, Saroornagar Mandal, Ranga",17.358607,78.531217,BPCL
+182,Sri Rama Filling Station,Telangana,Mahaboobnagar,"Sri Rama Filling Station, BPCL, Marikal Village, Dhanwada, Mahaboobnagar",16.607599,77.733938,BPCL
+183,Pervez Filling Station,Telangana,Nizamabad,"Pervez Filling Station, Bharath Petroleum Corporation Limited, Perkit village, Nizamabad",18.803893,78.314331,BPCL
+184,Shivam Filling Station,Telangana,Medak,"Shivam Filling Station, Bharath Petroleum Corporation Limited, Kandi Village, Sangareddy, Medak",17.5814225,78.1110481,BPCL
+185,Sri Venkateshwara Service Station,Telangana,Medak,"Sri Venkateshwara Service Station,
+Bharath Petroleum Corporation Limited, Kamkole Village,
+Munpally, Medak Dist",17.649069,77.8065911,BPCL
+186,Adithya Filling Station,Telangana,Warangal,"Adithya Filling Station, Bharath
+Petroleum Corporation Ltd, Madikonda Village, Hanamkonda Mandal, Warangal district",17.951745,79.477162,BPCL
+187,Bhavani Service Station,Telangana,Warangal,"Bhavani Service Station, Bharath
+Petroleum Corporation Ltd, Rayaparthi Village, Warangal District",17.722917,79.60157,BPCL
+188,Nirmal Filling Station,Telangana,Khammam,"Nirmal Filling Station, Bharath
+Petroleum Corporation Ltd, Pallegudem Village, Khammam Rural Mandal, Khammam District",17.287291,80.107844,BPCL
+189,Laxmi Shiva Filling Station,Telangana,Warangal,"Laxmi Shiva Filling Station,
+Bharath Petroleum Corporation Ltd, Maripeda Village, Maripeda Mandal, Warangal District",17.408422,79.872921,BPCL
+190,Mallikarjuna Filling Station,Telangana,Warangal,"Mallikarjuna Filling Station,
+Bharath Petroleum Corporation Ltd, Ghanpur Village, Ghanpur Mandal, Warangal District",17.86427,79.378335,BPCL
+191,Anjani Filling Station,Telangana,Nalgonda,"Anjani Filling Station, Bharath
+Petroleum Corp Ltd, Pagidipally Village, Bhongiri Mandal, Nalgonda District",17.49666,78.83991,BPCL
+192,BP Chinthapally,Telangana,Nalgonda,"BP Chinthapally, Bharath
+Petroleum Corporation Ltd, Chintapally Village, Nalgonda District",16.823551,78.820264,BPCL
+193,Devi Petro Fills,Telangana,Nalgonda,"Devi Petro Fills, Bharath
+Petroleum Corp Ltd, Nakrekal Village, Nakrekal Mandal, Nalgonda District",17.167756,79.403799,BPCL
+194,Highway Petro Plaza,Telangana,Nalgonda,"Highway Petro Plaza, Bharath
+Petroleum Corp Ltd, Jangareddigudem Village, Thipparthy Mandal, Nalgonda",17.021384,79.378865,BPCL
+195,Kondalreddy Fuel Service,Telangana,Nalgonda,"Kondalreddy Fuel Service,
+Bharath Petroleum Corporation Ltd, Lingojigudem Village,
+Chouppal Mandal, Nalgond",17.245477,78.92322,BPCL
+196,Laxmi Saraswathi Filling Station,Telangana,Nalgonda,"Laxmi Saraswathi Filling Station,
+Bharath Petroleum Corporation Ltd, Narketpally Village, Nalgonda District",17.212283,79.167326,BPCL
+197,Sai Chaitanya Filling Station,Telangana,Suryapet,"Sai Chaitanya Filling Station,
+Bharath Petroleum Corporation Ltd, Taduvaya Village, Mungala Mandal, Suryapet District",17.061069,79.819443,BPCL
+198,Sai Filling Station,Telangana,Nalgonda,"Sai Filling Station, Bharath
+Petroleum Corporation Ltd, Narketpally Village, Narketpally Mandal, Nalgonda District",17.207689,79.186027,BPCL
+199,Sai Radhe Shyam,Telangana,Nalgonda,"Sai Radhe Shyam, Bharath
+Petroleum Corporation Ltd, Damaracharala Village, Nalgonda District",16.724959,79.639946,BPCL
+200,SLV Filling Station,Telangana,Nalgonda,"SLV Filling Station, Bharath
+Petroleum Corp Ltd, Godakondla Village, Chaintapalli Mandal, Nalgonda District",16.961282,78.728033,BPCL
+201,Almaha Filling Station,Telangana,Nalgonda,"Almaha Filling Station, Bharath
+Petroleum Corporation Ltd, Peddavoora Village, Nalgonda District",16.720292,79.226232,BPCL
+202,CSR Filling Station,Telangana,Nalgonda,"CSR Filling Station, Bharath
+Petroleum Corporation Ltd, Bhongir Mandal, Nalgonda District",17.52252,78.923414,BPCL
+203,Elvee Petro Plaza,Telangana,Nalgonda,"Elvee Petro Plaza, Bharath
+Petroleum Corp Ltd, Toopranpet Village, Chouppal Mandal, Nalgonda District",17.292568,78.751529,BPCL
+204,Sree Chakri Filling Station,Telangana,Nalgonda,"Sree Chakri Filling Station,
+Bharath Petroleum Corp Ltd, Itikyala Sivaru Village, Vemulapally Mandal, Nalgonda",16.92269,79.533114,BPCL
+205,Santhosham Filling Station,Telangana,Nalgonda,"Santhosham Filling Station,
+Bharath Petroleum Corporation Limited, Raigiri Village , Bhongir
+Mandal, Nalgonda District",17.557486,78.961598,BPCL
+206,"Survey No. 128/A/2/2/1, Near
+Healthy Food Court, Oblaipalle, Mahabubnagar Rural, Mahabubnagar",Telangana,Mahabubna gar,"Survey No. 128/A/2/2/1, Near
+Healthy Food Court, Oblaipalle, Mahabubnagar Rural, Mahabubnagar",16.67516,77.89798,Joule Point pvt Ltd
+207,HPCL-Rajarajeswari F S,Telangana,Nizamabad,"HPCL-Rajarajeswari F S, HPCL
+Dealers, HP Petrol Pump, Survey No. 636/P9, Kamarpally Village & Mandal, Nizamabad Dist- 503 308",18.835634,78.498645,HPCL
+208,HPCL-Sri Sai Kavyalatha Filling Station,Telangana,Nizambad,"HPCL-Sri Sai Kavyalatha Filling
+Station, HPCL Dealer, HPCL Petrol Pump, Kammajiwadi Village, Kalwaral Panchayat,",18.448924,78.229491,HPCL
+209,HPCL-Pochampad High Fuels,Telangana,Nizambad,"HPCL-Pochampad High Fuels,
+HPCL Dealers, HP Petrol Pump, Survey No.324/1, Doodgaon Village, Balkonda Mandal,",18.976471,78.375707,HPCL
+210,HPCL-M.J.Filling Station,Telangana,Nizambad,"HPCL-M.J.Filling Station, HPCL
+Dealers, Petrol Pump, Survey No. 135/1, NH-16 Road, Morthad Village & Mandal, Nizamabad",18.830974,78.458944,HPCL
+211,HPCL - Prime Fuels,Telangana,Mahabubna gar,"HPCL - Prime Fuels, Survey
+No.337/A&340/A
+Chattanpally,Chattanpally,Farooq nagar- 509216",17.09127289,78.24034245,HPCL
+212,HPCL - SVR Filling Station,Telangana,Mahabubna gar,"HPCL - SVR Filling Station,
+Survey No.126, Macharam,Jadecherla,Mahabubna gar",16.79492564,78.14037406,HPCL
+213,HPCL Adarsh FS,Telangana,Medchal Malkajgiri,"HPCL Adarsh FS, HPCL Dealer,
+HP Petrol Pump, Korremula Village, Gahatkesar Mandal, Medchal Malkajgiri Dist-500088.",17.427764,78.648977,HPCL
+214,HPCL- Anus Filling Station,Telangana,Mahabubna gar,"HPCL- Anus Filling Station, Survey No .899, Pebbair,Pebbair,Mahabubnagar",16.22388,77.968549,HPCL
+215,HPCL Model FS,Telangana,Medchal Malkajgiri,"HPCL Model FS, HPCL Dealer,
+HP Petrol Pump, Ankushapur Village, NH-202, Ghatkesar
+Mandal, Medchal Malkajgiri Dist-",17.456781,78.71081,HPCL
+216,HPCL Shiva Linga FS,Telangana,Medak,"HPCL Shiva Linga FS, HPCL
+dealer, Petrol Pump, Narsingi Village, Narsingi Mandal, Medak Dist-502248",18.0304548,78.43338,HPCL
+217,HPCL- Shree Santosh Fuel Point,Telangana,Medak,"HPCL- Shree Santosh Fuel Point,
+Survey No.163, Masaipet Village,Yeldurthy Mandal, Medak Dist- 502 335",17.91016,78.46346,HPCL
+218,HPCL-Suvarna Srinivas Petroleum,Telangana,Ranga Reddy,"HPCL-Suvarna Srinivas
+Petroleum, HPCL Dealer, HP Petrol Pump, Injapur Village, Abdullapurmet Mandal, Ranga",17.305472,78.589857,HPCL
+219,HPCL Vyjayanti Services,Telangana,Medchal Malkajgiri,"HPCL Vyjayanti Services, HPCL
+Dealer, HPCL Petrol Pump, Thoomkunta Village, Shamirpet, Medchal Malkajgiri-500078",17.560971,78.545857,HPCL
+220,HPCL-Madhava Madanananda Filling Station,Telangana,Sangareddy,"HPCL-Madhava Madanananda
+Filling StationHPCL Dealers, Petrol Pump, Huggelli Village, Zaheerabad Mandal,  Zaheerabad",17.67356069,77.67142593,HPCL
+221,HPCL-Manikanta Filling Station,Telangana,Sangareddy,"HPCL-Manikanta Filling Station,
+HPCL Dealers, HP Petrol Pump, Digwal Village, Kohir Mandal, Sangareddy Dist- 502 321",17.66694,77.69816,HPCL
+222,HPCL-Mouryareddy Filling Station,Telangana,Sangareddy,"HPCL-Mouryareddy Filling
+Station, HPCL Dealers, HP Petrol Pump, , Rudraram Village, Patancheru Mandal, Sangareddy",17.567053,78.16,HPCL
+223,HPCL-Sri Vijaya Service Station,Telangana,Rangareddy,"HPCL-Sri Vijaya Service Station,
+HPCL Dealers, HP Petrol Pump, Sy No. 35, Satamrai, Gaganpahad, Rangareddy Dist- 509 323",17.281905,78.411229,HPCL
+224,HPCL-SVR Enterprises,Telangana,Mahabubna gar,"HPCL-SVR Enterprises, Survey
+No-358/A,358/U Chattanpally, Farooqnagar, Mahabubnagar- 509216.",17.088974,78.23905,HPCL
+225,HPCL Sri Laxmi Venkateshwara Filling Center,Telangana,Medchal Malkajgiri,"HPCL Sri Laxmi Venkateshwara
+Filling Center, HPCL dealer Petrol Pump, Plot No. 1&22, 2&21,
+Attelly Village, Medchal, Medchal",16.6919883,77.929765,HPCL
+226,HPCL Sri Siva Priya Highway Station,Telangana,Ranga Reddy,"HPCL Sri Siva Priya Highway
+Station HPCL Dealer, HP Petrol Pump, Hayathnagar, Peddamberpet, Ranga Reddy-",17.322053,78.631279,HPCL
+227,"Petroleum Class A,B Retail outlet, Chenchal guda central prison Saidabad",Telangana,Hyderabad,"Petroleum Class A,B Retail outlet
+at, Block No.A, Ward No. 175, Saidabad City, Chenchal guda central prison Saidabad mandal,",17.366229,78.497974,SUN Mobility Private Limited
+228,"H. No. 20-4-62/G,H,I,J
+Panchmohalla Charminar, Hyderabad dist",Telangana,Hyderabad,"H. No. 20-4-62/G,H,I,J
+Panchmohalla Charminar, Hyderabad dist",17.357571,78.473723,SUN Mobility Private Limited
+229,Jamai Osmania Railway Station Parking,Telangana,Hyderabad,"Jamai Osmania Railway Station Parking Premises, SBH Colony, Jamai Osmania-500036",17.412185,78.518304,M/s. Trinity Cleantech Private Limited
+230,Mettuguda Railway Vehicle Parking,Telangana,Hyderabad,"Mettuguda Railway Vehicle
+Parking Premises, Near Metro Parking located at Krishna Devaraya Rd, New Mettuguda,",17.434668,78.520438,M/s. Trinity Cleantech Private Limited
+231,Umda Nagar Railway Station parking,Telangana,Ranga Reddy,"Umda Nagar Railway Station
+parking Premises located at Govt.Jr. College Rd, Rudra Colony, Shamshabad-501218.",17.263081,78.393601,M/s. Trinity Cleantech Private Limited
+232,Hi-Tech City Railway station parking,Telangana,Ranga Reddy,"Hi-Tech City Railway station parking located at izzatnagar, Hyderabad, Kothaguda-500084",17.470903,78.384408,M/s. Trinity Cleantech Private Limited
+233,FalaknumaRailway Station,Telangana,Hyderabad,"FalaknumaRailway Station, Ghulam Murtuza, Falaknuma, Hyderabad-500053",17.332936,78.475409,SUN Mobility Private Limited
+234,Huppuguda Railway Station,Telangana,Hyderabad,"Huppuguda Railway Station, Huppuguda, Hyderabad-500053",17.3413323,78.4824879,SUN Mobility Private Limited
+235,Dabirpura Railway Station,Telangana,Hyderabad,"Dabirpura Railway Station, Dabirpura, Hyderabad-500023",17.366453,78.49041,SUN Mobility Private Limited
+236,Yakutpura Railway Station,Telangana,Hyderabad,"Yakutpura Railway Station, Rein Bazar, Yakutpura, Hyderabad- 500023",17.360254,78.492222,SUN Mobility Private Limited
+237,"Karwan, Hyderabad,",Telangana,Hyderabad,"D.No: 13-6-168, Uppar Basti, Vasavi Vihar, Talla Gadda, Karwan, Hyderabad-500006.",17.377064,78.441465,Grid Edgewrks Pvt Ltd
+238,"Plot No. 210,212,213 part, at Mehdijung Colony, Moulali, Medchal Malkajgiri",Telangana,Medchal Malkajgiri,"Plot No. 210,212,213 part, at Mehdijung Colony, Moulali, Medchal Malkajgiri",17.468908,78.560876,M/s. Trinity Cleantech Private Limited
+239,"Sri devi kalyan Estates,",Telangana,Medchal Malkajgiri,"Plot No.100 & 101, Sri devi kalyan Estates, Yapral, Malkajgiri, Medchal Malkajgiri",17.500918,78.539461,M/s. Trinity Cleantech Private Limited
+240,Vaishnavi Lamani Arcade,Telangana,Medchal,"Vaishnavi Lamani Arcade, Doolapally Road, Devender Colony, Kompally-500014",17.541059,78.488722,M/s. Exponent Energy Pvt Ltd
+241,Parade Metro station,Hyderabad,Hyderabad,"Opp Parade Grounds, Gandhi Nagar, Nehru Nagar Colony, Shivaji Nagar, Secunderabad,
+Telangana 500003",17.4432895,78.4952703,Hyderabad Metro
+242,Bala Nagar Metro station,Hyderabad,Hyderabad,"Near Balanagar Y Junction, Near Chennai Shopping Mal Hyderabad, Telangana, Telangana
+500072","17.4768311,",78.4199259,Hyderabad Metro
+243,Keshoram Sunderlal Fuel station (BPCL),Hyderabad,Hyderabad,"Plot No 3 to 5, Survey No 20 Bandlaguda, Uppal, Nagole, Hyderabad, Telangana 500068","17.372448,",78.5655009,BPCL
+244,Swati Enterprises (BPCL),Hyderabad,Hyderabad,"No 10, 1, Kamala Nagar, Auto Nagar, Hyderabad, Telangana 500070","17.3289167,",78.5422468,BPCL
+245,KMC Mall,Hyderabad,Hyderabad,"Nishaat Bagh Colony Road, Nishat Bagh Colony, Begumpet, Hyderabad, Telangana 500082","17.422608,",78.461364,KMC Mall
+246,TSIRD,Telangana,Hyderabad,"Rajendranagar, Hyderabad - 500 030","17°19'4.23""N","78°24'12.95""E",TGREDCO/REIL
+247,TSTRANSCO,Telangana,Hyderabad,"Transmission Corporation of Telangana Limited, Vidyut Soudha, Khairatabad, Hyderabad-
+500082",NA,NA,TGREDCO/REIL
+248,NSIC,Telangana,Hyderabad,"Near Radhika Movieplex, Electronic Complex, Kamalanagar, Kushaiguda,
+Hyderabad, Telangana 500062",NA,NA,TGREDCO/REIL
+249,NSIC,Telangana,Hyderabad,"Near Radhika Movieplex, Electronic Complex, Kamalanagar, Kushaiguda,
+Hyderabad, Telangana 500062",17°28.673'N,78°33.942'E,TGREDCO/REIL
+250,IOE(TGREDCO),Telangana,Hyderabad,"Visvesvaraya Bhavan, The Institution of Engineers Building, Khairatabad, Hyderabad - 500 004",17°24.741'N,"78°27.591""E",TGREDCO/REIL
+251,TSTRANSCO,Telangana,Hyderabad,"Transmission Corporation of Telangana Limited, Vidyut Soudha, Khairatabad, Hyderabad-
+500082",NA,NA,TGREDCO/REIL
+252,IOE(TGREDCO),Telangana,Hyderabad,"Visvesvaraya Bhavan, The Institution of Engineers Building, Khairatabad, Hyderabad - 500 004",17°24.741'N,"78°27.591""E",TGREDCO/REIL
+253,RTC- UPPAL,Telangana,Hyderabad,"Warangal Hwy, Venkateswara Colony, Sai Nagar, Peerzadiguda, Hyderabad, Telangana 500039",17°24.291'N,"78°35.400""E",TGREDCO/REIL
+254,RTC- UPPAL,Telangana,Hyderabad,,17°24.291'N,"78°35.400""E",TGREDCO/REIL
+255,RTC- UPPAL,Telangana,Hyderabad,,17°24.291'N,"78°35.400""E",TGREDCO/REIL
+256,RTC- Musheerabad,Telangana,Hyderabad,"Vidya Nagar Rd, Zamistanpur, Hyderabad, Telangana 500020",NA,NA,TGREDCO/REIL
+257,RTC- Musheerabad,Telangana,Hyderabad,"Vidya Nagar Rd, Zamistanpur, Hyderabad, Telangana 500020",NA,NA,TGREDCO/REIL
+258,CITD,Telangana,Hyderabad,"Cross Roads, IDA, Balanagar, Hyderabad, Telangana 500037",NA,NA,TGREDCO/REIL
+259,CITD,Telangana,Hyderabad,"Cross Roads, IDA, Balanagar, Hyderabad, Telangana 500037",NA,NA,TGREDCO/REIL
+260,CIPET,Telangana,Hyderabad,"Ind Phase II, Hyderabad, Telangana 50005",NA,NA,TGREDCO/REIL
+261,CIPET,Telangana,Hyderabad,"Ind Phase II, Hyderabad, Telangana 50005",NA,NA,TGREDCO/REIL
+262,NI-MSME,Telangana,Hyderabad,"Street Number 4, Rahmat Nagar, Yousufguda, Hyderabad, Telangana 500045",NA,NA,TGREDCO/REIL
+263,NI-MSME,Telangana,Hyderabad,"Street Number 4, Rahmat Nagar, Yousufguda, Hyderabad, Telangana 500045",NA,NA,TGREDCO/REIL
+264,BRK Bhavan Secretariat,Telangana,Hyderabad,"NH 44, Hill Fort, Adarsh Nagar, Hyderabad, Telangana 500063",NA,NA,TGREDCO/REIL
+265,BRK Bhavan Secretariat,Telangana,Hyderabad,"NH 44, Hill Fort, Adarsh Nagar, Hyderabad, Telangana 500063",NA,NA,TGREDCO/REIL
+266,Indian Institute of Health and Family Welfare,Telangana,Hyderabad,"Vengal Rao Nagar, opposite Ramalayam, Hyderabad, Andhra Pradesh 500038",NA,NA,TGREDCO/REIL
+267,Indian Institute of Health and Family Welfare,Telangana,Hyderabad,"Vengal Rao Nagar, opposite Ramalayam, Hyderabad, Andhra Pradesh 500038",NA,NA,TGREDCO/REIL
+268,ESCI,Telangana,Hyderabad,"GachiBowli, Hyderabad, Telangana 500032",17°25.745'N,78°22.313'E,TGREDCO/REIL
+269,TUFIDC,Telangana,Hyderabad,"3rd & 4th floor, TUFIDC & DTCP New building,Opposite PTI, Building, AC Guards, Hyderabad-
+50000",17°24.171'N,78°27.520'E,TGREDCO/REIL
+270,ESCI,Telangana,Hyderabad,"GachiBowli, Hyderabad, Telangana 500032",17°25.745'N,78°22.313'E,TGREDCO/REIL
+271,Jubillee bus stand,Telangana,Hyderabad,"Gandhi Nagar, Nehru Nagar Colony, West Marredpally, Secunderabad, Telangana 500026",,,Jubillee bus stand
+272,Somajiguda,Telangana,Hyderabad,"Raj Bhavan Road, Raj Bhavan Quarters Colony, Somajiguda Telangana",17.4233121,78.4589535,Fortum Charge and Drive India Pvt Ltd
+273,Begumpet,Telangana,Hyderabad,"Begumpet, Hyderabad, Telangana
+, India Telangana",17.4448383,78.4669492,Fortum Charge and Drive India Pvt Ltd
+274,Goshamahal,Telangana,Hyderabad,"10-C, Malakunta Road, Near Police Stadium, chanChandhanwadi Colony,
+Goshamahal, Telangana, Cha",17.3777152,78.4711468,Fortum Charge and Drive India Pvt Ltd
+275,Kompally,Telangana,Hyderabad,"indian oil petrol pump, Ruby block, Kompally Telangana",17.5369181,78.4893698,Fortum Charge and Drive India Pvt Ltd
+276,Hafeezpet,Telangana,Hyderabad,"Surver No. 98 Miyapur Main Rd, Madinaguda, Hafeezpet, Telangana",17.4948517,78.3364677,Fortum Charge and Drive India Pvt Ltd
+277,Vidya Nagar,Telangana,Hyderabad,"1-9-1122/A, OPP DURGA BAI DESHMUKH HOSPITAL,
+Osmania University Rd, Vidya
+Nagar, Telangana",17.4021682,78.5091411,Fortum Charge and Drive India Pvt Ltd
+278,Madhapur,Telangana,Hyderabad,"Siddhivinayak Nagar, KPHB- HitechCity Road, Madhapur,Hyderabad Telengana",17.459252,78.3852186,Fortum Charge and Drive India Pvt Ltd
+279,Nagaram,Telangana,Hyderabad,"Sai Siva Nagar, SV Nagar, Nagaram, Secunderabad, Telangna",17.4835592,78.5966763,Fortum Charge and Drive India Pvt Ltd
+280,Moula Ali,Telangana,Hyderabad,"42-720, MJ Colony, Moula Ali, Secunderabad, Telangana",17.4661283,78.5624428,Fortum Charge and Drive India Pvt Ltd
+281,Champapet,Telangana,Hyderabad,"Champapet Rd, Raji Reddy Nagar, New Santoshnagar, Champapet, Hyderabad, Telangana 500079
+Telengana",17.3489405,78.5139763,Fortum Charge and Drive India Pvt Ltd
+282,Hastinapuram,Telangana,Hyderabad,"Padmavathi Nagar, Laxmi Narashima Puram Colony, Hastinapuram, Hyderabad,
+Telangana 500079, India",17.3297613,78.5529136,Fortum Charge and Drive India Pvt Ltd
+283,Pedda Amberpet,Telangana,Hyderabad,"Sy No 173 & 175 Pedda amberpet, Vijayawada road Hyderabad Telangana 501505 Hyderabad",17.3199661,78.6510037,Fortum Charge and Drive India Pvt Ltd
+284,Bachupally,Telangana,Hyderabad,"Bachupally X-road, Bachupally, Hyderabad. Telangana 500090 Hyderabad",17.5437118,78.3636503,Fortum Charge and Drive India Pvt Ltd
+285,Katedhan,Telangana,Hyderabad,"Sri Rama Nagar, Katedan Industrial Area, Budvel, Hyderabd. Telangana 500052
+Hyderabad",17.302966,78.4206927,Fortum Charge and Drive India Pvt Ltd
+286,Thumkunta,Telangana,Hyderabad,"Rajiv Rahadari Rd, Thumkunta,Secendrabad",17.5708,78.557808,Fortum Charge and Drive India Pvt Ltd
+287,Nadargul,Telangana,Hyderabad,"Nadaergal,aadibatla ,Hyderabad. Telangana 501510 Hyderabad",17.266334,78.539374,Fortum Charge and Drive India Pvt Ltd
+288,Ghatkesar,Telangana,Hyderabad,NFC Nagar warangal highway Hyderabad.,17.455316,78.703452,Fortum Charge and Drive India Pvt Ltd
+289,Chandrayangutta,Telangana,Hyderabad,"SH-5 pahadi Shareef Rd, Hyderabad. Telangana 5000005 Hyderabad",17.298016,78.477031,Fortum Charge and Drive India Pvt Ltd
+290,Begumpet,Telangana,Hyderabad,"7-1-22/A, Begumpet Flyover, Leelanagar, Ameerpet, Hyderabad, Telangana 500016
+Telangana",17.4369053,78.4570362,Fortum Charge and Drive India Pvt Ltd
+291,Kukatpally,Telangana,Hyderabad,"Mumbai Hwy, Balaji Nagar, Kukatpally, , Telangana 500072 Hyderabad",17.4858503,78.411178,Fortum Charge and Drive India Pvt Ltd
+292,Kukatpally,Telangana,Hyderabad,"Bhagya Nagar Colony, Kukatpally, Telangana 500072 Hyderabad",17.4935791,78.4015314,Fortum Charge and Drive India Pvt Ltd
+293,Mettuguda,Telangana,Hyderabad,"Near St.Anthony Shrine, Krishna Deva Raya Rd, Lallaguda Railway Colony, Lalaguda, Telangana
+500017 Hyderabad",17.4360664,78.5191637,Fortum Charge and Drive India Pvt Ltd
+294,Tarnaka,Telangana,Hyderabad,"Krishna Deva Raya Rd, Near NIN, Tarnaka Main Rd, Near Axis Bank, Telangana, 500007
+Hyderabad",17.4284758,78.5277402,Fortum Charge and Drive India Pvt Ltd
+295,Habsiguda,Telangana,Hyderabad,"Near Ngri, Habsiguda Main Rd, Vasant Vihar, Habsiguda, Hyderabad-500007 , Telangana",17.4140836,78.547335,Fortum Charge and Drive India Pvt Ltd
+296,Uppal,Telangana,Hyderabad,"HMR Stadium, Hyderabad, Telangana , India Telangana 500039 Hyderabad",17.4080803,78.5538474,Fortum Charge and Drive India Pvt Ltd
+297,Saroornagar,Telangana,Hyderabad,"8-116, NH 65, Narsimha Puri Colony, Huda Colony, Saroornagar, Telangana 500035
+Hyderabad",17.361751,78.544145,Fortum Charge and Drive India Pvt Ltd
+298,Moosapet,Telangana,Hyderabad,"Moosapet Metro Station, Pragathi Nagar, Moosapet, Hyderabad, Telangana Telangana500072
+Hyderabad",17.4724766,78.4255675,Fortum Charge and Drive India Pvt Ltd
+299,Malakpet,Telangana,Hyderabad,"16-2-689/3, NH 65, Palton,
+Dayanand Nagar, New Malakpet, Telangana 500036 Hyderabad",17.3713182,78.5111171,Fortum Charge and Drive India Pvt Ltd
+300,Uppal,Telangana,Hyderabad,"Rto office, Inner ring Rd, Uppal Main Rd, Opp, Uppal, Hyderabad Telengana 500039 Hyderabad",17.3907415,78.558545,Fortum Charge and Drive India Pvt Ltd
+301,Jubilee Hills,Telangana,Hyderabad,"Plot no 735 Rd no 37&38 Left lane after Chroma,CBI colony jubli Hills, Hyderabad.
+Telangana500033 Hyderabad",17.435968,78.40003,Fortum Charge and Drive India Pvt Ltd
+302,Yousufguda,Telangana,Hyderabad,"A-91, Krishna Nagar Main Rd, Lakshmi Narasimha Nagar, Krishna Nagar, Yousufguda,
+Hyderabad. Telangana 500045",17.4352197,78.4275654,Fortum Charge and Drive India Pvt Ltd
+303,IDA Uppal,Telangana,Hyderabad,"Mahindra Automotive Manufacturers Private Limited B- 3, IDA Uppal, District Ranga
+Reddy, Gaddi annaram,",17.3990313,78.5548739,Fortum Charge and Drive India Pvt Ltd
+304,Langar Houz,Telangana,Hyderabad,"Mahindra Automotive Manufactures Pvt. Ltd. Attapur, Mehdipatnam Ring Road, Jyothi
+Nagar, Maruthi Nagar, Langar",17.3820226,78.4288877,Fortum Charge and Drive India Pvt Ltd
+305,Jubilee Hills,Telangana,Hyderabad,"Plot no 1285/A, Road No.64, Near Jubilee Hills Check Post, Jubilee Hills, Hyderabad,
+Telangana Telangana 500033",17.4255923,78.4144583,Fortum Charge and Drive India Pvt Ltd
+306,Hyder Nagar,Telangana,Hyderabad,"170/2, Near Water Reservoir Office, Hyder Nagar, Hyderabad, Telangana , India Telangana
+500090 Hyderabad",17.4980855,78.377676,Fortum Charge and Drive India Pvt Ltd
+307,Banjara Hills,Telangana,Hyderabad,"8-2-120/86/10,10A,11B,11C and
+11D, Opp: Hotel Park Hyatt, Road Number 2, Banjara Hills, Hyderabad, Telangana 500033",17.4239237,78.4303283,Fortum Charge and Drive India Pvt Ltd
+308,Hafeezpet,Telengana,Hyderabad,"Nadigada Tanda, Hafeezpet, Miyapur, Telangana 500049",17.4972001,78.3758091,Fortum Charge and Drive India Pvt Ltd
+309,Nacharam,Telengana,Medchal- Malkajgiri,"1/2B, IDA, Industrial Development Area, Nacharam, Secunderabad,
+TelanganaTelangana500051Hyder",17.441157,78.565129,Fortum Charge and Drive India Pvt Ltd
+310,Rudraram,Telengana,Sangareddy,"Nh-9 Rudraram Hyderabad. Telangana 502329 HyderabadTelangana502329Hyder
+abad",17.568126,78.159986,Fortum Charge and Drive India Pvt Ltd
+311,IOC Raj Bhavan,Telengana,Hyderabad,"IOC Raj Bhavan Road Gold Strike LLP (IOC Petrol Pump), 6-3- 927/C&D, Opp Katriya Hotel
+Entrance, Raj Bhavan Rd,","17.4233121,",78.4589535,Fortum Charge and Drive India Pvt Ltd
+312,IOC Begumpet,Telengana,Hyderabad,"IOC Begumpet CoCo Begumpet, Begumpet Rd, Old Patigadda, Prakash Nagar, Begumpet,
+Hyderabad, Telangana-500001","17.4382292,",78.4572636,Fortum Charge and Drive India Pvt Ltd
+313,AMPL Jubilee,Telengana,Hyderabad,"AMPL Jubilee Hills Plot no 1285/A, Road No.64, Near Jubilee Hills Check Post, Jubilee Hills,
+Hyderabad, Telangana- 500033","17.4255923,",78.4144583,Fortum Charge and Drive India Pvt Ltd
+314,HMR Begumpet,Telengana,Hyderabad,"HMR Begumpet HMR Begumpet Station, 7-1-22/A, Begumpet Flyover, Leelanagar, Ameerpet,
+Hyderabad, Telangana-500016","17.4382292,",78.4572636,Fortum Charge and Drive India Pvt Ltd
+315,HMR Kukatpally,Telengana,Hyderabad,"HMR Kukatpally HMR Kukatpally Metro Station, Mumbai Hwy, Balaji Nagar,
+Kukatpally, Hyderabad, Telangana","17.4858503,",78.411178,Fortum Charge and Drive India Pvt Ltd
+316,HMR Kukatpally,Telengana,Hyderabad,"HMR Kukatpally HMR Kukatpally Metro Station, Mumbai Hwy, Balaji Nagar,
+Kukatpally, Hyderabad, Telangana","17.4858503,",78.411178,Fortum Charge and Drive India Pvt Ltd
+317,HMR Stadium,Telengana,Hyderabad,"HMR Stadium HMR Stadium Station,18-54/11, Inner Ring Rd, Prashanth Nagar, Uppal,
+Hyderabad, Telangana-500039","17.4080803,",78.5538474,Fortum Charge and Drive India Pvt Ltd
+318,HMR Tarnaka,Telengana,Hyderabad,"HMR Tarnaka HMR Tarnaka Metro Station, Krishna Deva Raya Rd, Near NIN, Tarnaka Main Rd,
+Near Axis Bank,","17.4284758,",78.5277402,Fortum Charge and Drive India Pvt Ltd
+319,HMR Mettuguda,Telengana,Hyderabad,"HMR Mettuguda HMR Mettuguda Metro Station,Near St.Anthony Shrine, Krishna Deva
+Raya Rd, Lallaguda Railway","17.4360664,",78.5191637,Fortum Charge and Drive India Pvt Ltd
+320,HMR NGRI Near,Telengana,Hyderabad,"HMR NGRI Near NGRI,
+Habsiguda Main Rd, Vasant Vihar, Habsiguda, Hyderabad, Telangana-500007","17.4140836,",78.547335,Fortum Charge and Drive India Pvt Ltd
+321,HMR KPHB,Telengana,Hyderabad,"HMR KPHB KPHB Metro
+Station, Bhagya Nagar Colony, Kukatpally, Hyderabad, Telangana-
+500072",17.4935791,78.4015314,Fortum Charge and Drive India Pvt Ltd
+322,IOC Goshamahal,Telengana,Hyderabad,"IOC Goshamahal IOCL Goshamahal,10-C, Malakunta Road, Near Police Stadium,
+Chandhanwadi Colony,","17.3777152,",78.4711468,Fortum Charge and Drive India Pvt Ltd
+323,IOC Kompally,Telengana,Hyderabad,"IOC Kompally IOCL CoCo Kompally, NH 44, Ruby Block, Kompally, Secunderabad,
+Telangana-500100","17.5369181,",78.4893698,Fortum Charge and Drive India Pvt Ltd
+324,IOC Madinaguda,Telengana,Hyderabad,"IOC Madinaguda IOCL Miyapur, Survey No. 98, Miyapur Main Rd, Madinaguda, Hafeezpet,
+Hyderabad, Telangana-500050","17.4948517,",78.3364677,Fortum Charge and Drive India Pvt Ltd
+325,IOC Hitech City,Telengana,Hyderabad,"IOC Hitech City IOC Hi-Tech City Siddhivinayak Nagar, KPHB- HitechCity Road,
+Madhapur,Hyderabad, Telengana-","17.4592521,",78.3852186,Fortum Charge and Drive India Pvt Ltd
+326,IOC Khushaiguda,Telengana,Hyderabad,"IOC Khushaiguda IOC Khushaiguda Sai Siva Nagar, SV Nagar, Nagaram, Secunderabad,
+Hyderabad,Telangna-500083","17.4835592,",78.5966763,Fortum Charge and Drive India Pvt Ltd
+327,IOC Vidyanagar,Telengana,Hyderabad,"IOC Vidyanagar IOC Vidyanagar 1-9-1122/A, OPP DURGA BAI DESHMUKH HOSPITAL,
+Osmania University Rd, Vidya","17.4021682,",78.5091411,Fortum Charge and Drive India Pvt Ltd
+328,IOC Moula Ali,Telengana,Hyderabad,"IOC Moula Ali   IOC Moula Ali, 42-720 MJColony,Moula Ali,Secunderabad,Hyderabad,Tela
+ngana-500040","17.4661283,",78.5624428,Fortum Charge and Drive India Pvt Ltd
+329,IOC Champapet,Telengana,Hyderabad,"IOC Champapet IOC Champapet, Champapet Rd,Raji Reddy Nagar,New Santoshnagar,
+Champapet, Hyderabad,","17.3489405,",78.5139763,Fortum Charge and Drive India Pvt Ltd
+330,IOC Vanasthalipuram,Telengana,Hyderabad,"IOC Vanasthalipuram IOC Vanasthalipuram, Padmavati Nagar,Laxmi Narshima Puram
+Colony, Hastinapuram,","17.3297613,",78.5529136,Fortum Charge and Drive India Pvt Ltd
+331,IOC Peddamberpet,Telengana,Hyderabad,"IOC Peddamberpet IOC Pedda Amberpet, Sy No 173 & 175 Pedda amberpet, Vijayawada
+Road,Hyderabad, Telengana-","17.3199661,",78.6510037,Fortum Charge and Drive India Pvt Ltd
+332,IOC Budvel,Telengana,Hyderabad,"IOC Budvel IOC Budvel, Sri Rama Nagar, Katedan Industrial Area, Budvel,
+Hyderabd,Telangana-","17.3029661,",78.4206927,Fortum Charge and Drive India Pvt Ltd
+333,IOC Budvel,Telengana,Hyderabad,"IOC Budvel IOC Budvel, Sri Rama Nagar, Katedan Industrial Area, Budvel,
+Hyderabd,Telangana-","17.3029661,",78.4206927,Fortum Charge and Drive India Pvt Ltd
+334,IOC Bachupally,Telengana,Hyderabad,"IOC Bachupally IOC Bachupally, Bachupally X-road, Bachupally, Hyderabad,Telangana-500090","17.5437118,",78.3636503,Fortum Charge and Drive India Pvt Ltd
+335,HMR Madhapur,Telengana,Hyderabad,"HMR Madhapur HMR Madhapur,Plot no 735 Rd no 37&38 Left lane after Chroma,CBI
+colony jubli Hills,","17.4360958,",78.4000504,Fortum Charge and Drive India Pvt Ltd
+336,HMR Madhapur,Telengana,Hyderabad,"HMR Madhapur HMR Madhapur,Plot no 735 Rd no 37&38 Left lane after Chroma,CBI
+colony jubli Hills,","17.4360958,",78.4000504,Fortum Charge and Drive India Pvt Ltd
+337,HMR Madhapur,Telengana,Hyderabad,"HMR Madhapur HMR Madhapur,Plot no 735 Rd no 37&38 Left lane after Chroma,CBI
+colony jubli Hills,","17.4360958,",78.4000504,Fortum Charge and Drive India Pvt Ltd
+338,HMR Yousufguda,Telengana,Hyderabad,"HMR Yousufguda HMR Yousufguda, A-91 Krishna angar Main Rd , Lakshi narsimha
+nagar,Krisha","17.4352197,",78.4275654,Fortum Charge and Drive India Pvt Ltd
+339,IOC Immamguda,Telengana,Hyderabad,"IOC Immamguda IOC Immamguda,SH-5,Srisailum Road,Maheshwaram
+Hyderabad,Telangana-501359","17.1864608,",78.4738788,Fortum Charge and Drive India Pvt Ltd
+340,IOC Pahadi Shareef,Telengana,Hyderabad,"IOC Pahadi Shareef IOC Pahadi Shareef, SH-5 pahadi Shareef Rd,Hyderabad,Telangana-500005","17.2980160,",78.477031,Fortum Charge and Drive India Pvt Ltd
+341,IOC Nadergul,Telengana,Hyderabad,"IOC Nadergul IOC Nadergul,Nadaergal,aadibatla,Hyd erabad,Telengana-501510","17.2663340,",78.539374,Fortum Charge and Drive India Pvt Ltd
+342,IOC Shameerpet,Telengana,Hyderabad,"IOC Shameerpet IOC Sahmeerpet,Rajiv Rahadari Rd,Thumkunta,Secendrabad,Telan
+gana-500078","17.5708000,",78.557808,Fortum Charge and Drive India Pvt Ltd
+343,IOC Narketpally,Telengana,Nalgonda (D),"IOC Narketpally IOC Sri Venkateshawara Trading Co, Chintal,Narketpally,
+Nalgonda(D),Telangana-508254","17.2083480,",79.177221,Fortum Charge and Drive India Pvt Ltd
+344,IOC Pamangundla,Telengana,Nalgonda (D),"IOC Pamangundla IOC RP Filling Station, Pamangundla Pamangundla,Kattangur
+Nalgonda(D),Telangana-508205","17.1796630,",79.25894,Fortum Charge and Drive India Pvt Ltd
+345,IOC Laxmi Sai Suryapet,Telengana,Suryapet,"IOC Laxmi sai Suryapet IOC Sri Laxmi Sai FS, Near Eenadu Office,Suryapet,Telangana-508213","17.1283260,",79.637229,Fortum Charge and Drive India Pvt Ltd
+346,IOC Nacharam,Telengana,Hyderabad,"IOC Nacharam IOC Nacharam Filling Station,1/2B, IDA, Industrial Development Area,
+Nacharam,Secunderabad,","17.4411510,",78.565129,Fortum Charge and Drive India Pvt Ltd
+347,HMR Miyapur,Telengana,Hyderabad,"HMR Miyapur HMR Miyapur,Nadigada Tanda,Hafeezpet,Miyapur,Hydera
+bad,Telangana-500049","17.4972001,",78.3758091,Fortum Charge and Drive India Pvt Ltd
+348,HMR Nagole,Telengana,Hyderabad,"HMR Nagole HMR Nagole RTO office, Inner ring Rd, Uppal Main Rd, Opp, Uppal,
+Hyderabad,Telengana-500039","17.3907415,",78.558545,Fortum Charge and Drive India Pvt Ltd
+349,IOC Kodad,Telengana,Suryapet,"IOC Kodad IOC Kodad,Dorakunta Villege,Kodad- 508206","16.982319,",80.003576,Fortum Charge and Drive India Pvt Ltd
+350,IOC Pillalamarry,Telengana,Suryapet,"IOC Pillalamarry IOC Raj Rajeshwari,NH-9 Pillamarry,Telangana-508204","17.145631,",79.589817,Fortum Charge and Drive India Pvt Ltd
+351,IOC Sai Baba Suryapet,Telengana,Suryapet,"IOC Sai Baba Suryapet IOC Sai Baba,Bypass Road Suryapet,Telangana-508213","17.151711,",79.60734,Fortum Charge and Drive India Pvt Ltd
+352,Chennai Silks,Telengana,Hyderabad,"Chennai Silks  Chennai Silks,NH- 65,, 11-6-72/B, Mumbai Hwy, Medchal, Hyderabad, Telangana
+500018","17.475855,",78.423231,Fortum Charge and Drive India Pvt Ltd
+353,MG Hyderabad,Telengana,Hyderabad,"MG Hyderabad Jubilee Hills MG Banjara Hills Road Number 12, Opposite Traffic Police
+Station,Banjara Hills, Hyderabad,",17.4239237,78.4303283,Fortum Charge and Drive India Pvt Ltd
+354,HMR Moosarambagh,Telengana,Hyderabad,"HMR Moosarambagh
+16-2-689/3, NH 65, Palton,
+Dayanand Nagar, New Malakpet, Telangana",17.3713182,78.5111171,Fortum Charge and Drive India Pvt Ltd
+355,HPCL Aaddakal,Telengana,Mahabubna gar,"HPCL Aaddakal Sy No 27 A & Sy No 27 AA katavaram Village, Addakkal ,Mahabubnagar
+Telangana 509382 Telanagana",16.525282,77.94011,Fortum Charge and Drive India Pvt Ltd
+356,Green Drive,Telengana,Hyderabad,"Green Drive Motors Diamond Hills Plot No 299 Behind Car launch Opp Care Hospital,
+Hyderabad Telangana 500081",17.4346097',78.3696467,Fortum Charge and Drive India Pvt Ltd
+357,Green Drive Gachibowli-1,Telengana,Hyderabad,"Green Drive Gachibowli-1 90, Diamond Hills, Lumbini Avenue, Gachibowli, Hyderabad,
+Telangana 500081","17.4323889,",78.3731944,Fortum Charge and Drive India Pvt Ltd
+358,Green Drive Kondapur,Telengana,Hyderabad,"Green Drive Kondapur  Hanuman Nagar, Raghavendra Colony, Kondapur, Telangana 500084",17.465763,78.367065,Fortum Charge and Drive India Pvt Ltd
+359,"Tejaswi Motors, Madhapur",Telengana,Hyderabad,"Plot No. 4/14, Opp. Cyber Towers, KPHB Road, Madhapur, Hyderabad, Telangana - 500081",17.45345,78.38334,TATA POWER COMPANY PVT LD
+360,"Venkataramana Motors, ECIL",Telangana,Hyderabad,"Plot No 11, Victory Plaza, ECIL X Roads, Hyderabad, Telangana - 500062",17.48081,78.57715,TATA POWER COMPANY PVT LD
+361,"Select Cars, Sanath Nagar",Telangana,Hyderabad,"B-51, APIIC Rd, IDA Kukatpally, Sanath Nagar, Hyderabad, Telangana 500018",17.45608,78.44656,TATA POWER COMPANY PVT LD
+362,"Westside, Somajiguda",Telangana,Hyderabad,"PLOT NO.6-3, Kmc Retail Mall, CIRCLE, 1112, near KIRTILAL
+JEWELLERS, Somajiguda,
+Hyderabad, Telangana 500082",17.4226,78.46136,TATA POWER COMPANY PVT LD
+363,"Select Cars, Alkapuri",Telangana,Hyderabad,"ALKAPURI X ROADS, Nagole,
+Hyderabad, Telangana 500068",17.3649,78.55747,TATA POWER COMPANY PVT LD
+364,"Venkataramana Motors, ECIL",Telangana,Hyderabad,"Plot No 11, Victory Plaza, ECIL X Roads, Hyderabad, Telangana - 500062",17.48081,78.57715,TATA POWER COMPANY PVT LD
+365,"Venkataramana Motors, Gachibowli",Telangana,Hyderabad,"H.No :1-26/1/42, Gachibowli, , Hyderabad, Telangana - 500081",17.44254,78.36302,TATA POWER COMPANY PVT LD
+366,Tejaswi Motors - Madhapur,Telangana,Hyderabad,"Plot No. 4/14, Opp. Cyber Towers, KPHB Road, Madhapur, Hyderabad, Telangana - 500081",17.45345,78.38334,TATA POWER COMPANY PVT LD
+367,"Croma - Jubilee Hills, Hyderabad",Telangana,Hyderabad,"Plot No. 4/14, Opp. Cyber Towers, KPHB Road, Madhapur, Hyderabad, Telangana - 500081",17.43588,78.40101,TATA POWER COMPANY PVT LD
+368,"Croma, Attapur",Telangana,Hyderabad,"Sirimalle Square Plot Nos. 8, 9, 10 Survey No. 523/B, Pillar No. 160 Attapur, Rajendranagar mandal,
+Hyderabad, Telangana 500048.",17.359176,78.426285,TATA POWER COMPANY PVT LD
+369,"Croma, Kompally",Telangana,Hyderabad,"Ratna Arcade, Ground Floor Survey No. 128 National Highway 44, Beside, Sree Vensai Towers,
+Ruby Block, Kompally,",17.531882,78.485644,TATA POWER COMPANY PVT LD
+370,"Croma, L.B. Nagar",Telangana,Hyderabad,"CROMA, Ground Floor,D.V.Cascade,Plot 59A,59/B,59/C,59/D In Survey
+9/9,Saroornagar",17.352657,78.546636,TATA POWER COMPANY PVT LD
+371,"Croma, Ramanthapur",Telangana,Hyderabad,"Croma, Unit No. 2 & 3, Ground Floor, Plot Survey No. 46, Pragathi Nagar, Ramanthapur
+Main Road, Ramanthapur,",17.499345,78.541866,TATA POWER COMPANY PVT LD
+372,"Sarath City Capital Mall, Whitefields",Telangana,Hyderabad,"Sarath City Capital Mall, Whitefields, Gachibowli-Miyapur Road, Hyderbad 500084",17.457774,78.36396,TATA POWER COMPANY PVT LD
+373,"Vivera Hotels & Resorts, Loc 1, Narketpally",Telangana,Suryapet,"NH 65, Narketpally, Telangana - 508254",17.212796,79.166746,TATA POWER COMPANY PVT LD
+374,"Vivera Hotels & Resorts, Bhuvanagiri",Telangana,Bhuvanagiri,"NH 163, Ragari, near IT College, Bhuvanagiri, Telangana 508116",17.522471,78.924306,TATA POWER COMPANY PVT LD
+375,"7 Food Court, NH 65 - Rayangudem",Telangana,Suryapet,"NH - 65, Rayangudem Village Suryapet Mandal, Suryapet, Telangana 508213",17.150628,79.577475,TATA POWER COMPANY PVT LD
+376,"Highway Hospitality, Rajugari Thota",Telangana,Suryapet,"NH 65, Rayangudem Village, Suryapet, Telangana-508213",17.1525348,79.5699188,TATA POWER COMPANY PVT LD
+377,"Select Cars, SVP Road",Telangana,Warangal,"No. 15 - 1 - 315 Shri Vishnu Priya Complex SVP Road (NH163) Beside Rama Krishna Theatre,
+Telangana 506007",17.999273,79.585443,TATA POWER COMPANY PVT LD
+378,"Hotel Vididhi, Kothagudam",Telangana,Nalgonda,"Survey No. 173/2, 174/6, State Highway 2 NAM Expressway, Miryalaguda Highway Near
+Madugulapally Toll Plaza",16.991031,79.44047,TATA POWER COMPANY PVT LD
+379,"Select Cars, Hyderabad Rd - Kothirampur",Telangana,Karimnagar,"No 8-6-396, Hyderabad Rd, Kothirampur, Karimnagar, Telangana 505001",18.417928,79.13639,TATA POWER COMPANY PVT LD
+380,"Orange Auto, Erragadda",Telangana,Hyderabad,"8-3-165, Beside Gokul Theatre, Erragadda, Hyderabad – 500018",17.454398,78.434575,TATA POWER COMPANY PVT LD
+381,"Orange Auto, Karkhana",Telangana,Hyderabad,"Plot No 54, Gayatri Westend Kakaguda, Karkhana, Secunderabad - 500015","17.45848,",78.5,TATA POWER COMPANY PVT LD
+382,"Orange Auto, Hafeezpet",Telangana,Hyderabad,"16ABC, Mini Industrial estate, Hafeezpet, Hyderabad, Telangana 500049",17.490308,78.354536,TATA POWER COMPANY PVT LD
+383,"Orange Auto, Hafeezpet",Telangana,Hyderabad,"16ABC, Mini Industrial estate, Hafeezpet, Hyderabad, Telangana 500049",17.490308,78.354536,TATA POWER COMPANY PVT LD
+384,"Fairfield by Marriott,Gachibowli",Telangana,Hyderabad,"Road No. 2, Financial District, Gachibowli, Hyderabad, Telangana - 500032",17.423858,78.347334,TATA POWER COMPANY PVT LD
+385,"Fairfield by Marriott,Gachibowli",Telangana,Hyderabad,"Road No. 2, Financial District, Gachibowli, Hyderabad, Telangana - 500032",17.423858,78.347334,TATA POWER COMPANY PVT LD
+386,"Malik Cars, Old Bowenpally",Telangana,Secunderaba d,"Adj Service Road Sri Sai Enclave, Old Bowenpally, Secunderabad, Telangana 500011",17.478362,78.4737723,TATA POWER COMPANY PVT LD
+387,"Anutex Shopping Mall(C1), Dr. AS Rao Nagar, Hyd",Telangana,Mdchal Malkajgiri,"Dr. AS Rao Nagar Rd, Rukminipuri Colony, Kapra, Secunderabad, Telangana 500062,
+India",17.48131,78.555473,Joule Point pvt Ltd
+388,"Sri Rama Anuja jiva ashramam, HYD",Telangana,Ranga Reddy,"Sri Ramanagaram JIVA Campus Shamshabad, Hyderabad, Telangana",17.187141,78.331826,Joule Point pvt Ltd
+389,Hotel Highway 9 Grand C2,Telangana,Nalgonda,"HOTEL HIGHWAY 9 GRAND,
+Lingojigudem, Choutuppal, Nalgonda - 508252",17.245514,78.921059,Joule Point pvt Ltd
+390,"The Central Court Hotel(C1), Hyderabad",Telangana,Hyderabad,"6-1-71, Lakdikapul Rd, beside HDFC Bank, Saifabad, Khairtabad, Hyderabad,
+Telangana 500004",17.40439,78.465034,Joule Point pvt Ltd
+391,"Bhongir Railway Station, Telangana",Telangana,Bhongir,"Bhongir Railway Station, Mothkur
+- Bhuvanagiri Rd, Sanjeeva Nagar, Bhongir, Telangana 508116",17.523887,78.898043,Joule Point pvt Ltd
+392,"Hotel Highway 9 Grand(C1), Choutuppal",Telangana,Nalgonda,"HOTEL HIGHWAY 9 GRAND,
+Lingojigudem, Choutuppal, Nalgonda - 508252",17.2459972,78.9213881,Joule Point pvt Ltd
+393,"Oakwood Residence(C2), Hyderabad",Telangana,Hyderabad,"Oakwood Residence Kapil Hyderabad, Survey no.115/1, Nanakramguda, Financial District,
+Gachibowli,500032, Hyd",17.42160299,78.338903,Joule Point pvt Ltd
+394,"Raghuveer Pandith, Shamshabad, Telangana",Telangana,Ranga Reddy,"23-178/5/1/1, Road No 9, Madhunagar Colony, Shamshabad, Telangana, 501218",17.260179,78.3832378,Joule Point pvt Ltd
+395,"Anutex Shopping Mall(C2), Dr. AS Rao Nagar",Telangana,Medchal- Malkajgiri,"Dr. AS Rao Nagar Rd, Kapra, Secunderabad, Telangana 500062, India",17.4813449,78.555532,Joule Point pvt Ltd
+396,"Hotel Highway 9 Grand (C2),Choutuppal",Telangana,Nalgonda,"HOTEL HIGHWAY 9 GRAND,
+Lingojigudem, Choutuppal, Nalgonda - 508252",17.245514,78.921059,Joule Point pvt Ltd
+397,"Hotel Highway 9 Grand (C3),Choutuppal",Telangana,Yadadri,"HOTEL HIGHWAY 9 GRAND,
+Choutuppal, Hyderabad - Vijayawada Hwy, Telangana 508252, India",17.245691,78.921473,Joule Point pvt Ltd
+398,"Krishna Nagar, LB Nagar",Telangana,Ranga Reddy,"Krishna Nagar, LB Nagar, Hyderabad, 500074",17.350581,78.542938,Joule Point pvt Ltd
+399,"Muthyalamma temple, nagarjuna sagar",Telangana,Nalgonda,"NH565, Nagarjuna Sagar, Telangana 508202",16.62908619,79.29116216,Joule Point pvt Ltd
+400,"Janapriya colony(C1), LB Nagar",Telangana,Ranga Reddy,"Janapriya colony, LB Nagar, Hyderabad, 500074",17.350558,78.543247,Joule Point pvt Ltd
+401,"Hotel Green Park(C1), Hyderabad",Telangana,Hyderabad,"Greenpark Hotel, Begumpet Rd, Leelanagar, Begumpet, Hyderabad, Telangana 500016",17.43586009,78.45419995,Joule Point pvt Ltd
+402,"Hotel Green Park(C2), Hyderabad",Telangana,Hyderabad,"Greenpark Hotel, Begumpet Rd, Leelanagar, Begumpet, Hyderabad, Telangana 500016",17.43586009,78.45419995,Joule Point pvt Ltd
+403,"Hotel Mercure (C2), Hyderabad",Telangana,Hyderabad,"Mercure Hyderabad Kcp, Irram Manzil Colony, Punjagutta, Hyderabad, Telangana 500082",17.41764668,78.45647413,Joule Point pvt Ltd
+404,"Oakwood Residence Kapil(C1),Gachibowli, Hyderabad",Telangana,Hyderabad,"Oakwood Residence Kapil Hyderabad Survey no.115/1, Nanakramguda Financial District
+Gachibowli,500032, Hyd",17.42182648,78.33864201,Joule Point pvt Ltd
+405,"Sri Ramanuja Jiva Ashram(C1),Muchintal Road, Shamshabad",Telangana,Ranga Reddy,"Sri Ramanagaram JIVA Campus, Muchintal Road, Palmakol P.O., Shamshabad, Hyderabad",17.18714199,78.3296385,Joule Point pvt Ltd
+406,"Oakwood Residence(C3), Hyderabad",Telangana,Hyderabad,"Oakwood Residence Kapil Hyderabad Survey no.115/1, Nanakramguda Financial District
+Gachibowli, 500032, Hyd",17.42160299,78.338903,Joule Point pvt Ltd
+407,"Hi tech city railway station, Izzathnagar",Telangana,Hyderabad,"Hi tech Railway station, Izzathnagar, Hyderabad, Telangana 500084",17.47026379,78.38461775,Joule Point pvt Ltd
+408,"TSIRD, Rajendra Nagar, Hyderabad",Telangana,Ranga Reddy,"TSIRD RAJENDRA NAGAR,
+Hyderabad Telangana, 500030",17.31733469,78.4027753,Joule Point pvt Ltd
+409,"Oakwood Residence(C4), Hyderabad",Telangana,Ranga Reddy,"Oakwood Residence Kapil Hyderabad Survey no.115/1, Nanakramguda Financial District
+Gachibowli,500032",17.42160299,78.338903,Joule Point pvt Ltd
+410,"Anutex Shopping mall, Kothapet, Hyderabad",Telangana,Malkajgiri,"Lingala Babaiah Goud Tower, D.No:11-8-99, Narasimhapuri Colony, Kothapet, Hyderabad,
+Telangana 500035",17.36357625,78.5430944,Joule Point pvt Ltd
+411,"TGREDCO(C1), Hyderabad",Telangana,Hyderabad,"TGREDCO, D.No. 6-2-910,
+Visvesvaraya Bhavan, The Institution of Engineers Building,
+Khairatabad, Hyderabad - 500004.",17.4123484,78.4598923,Joule Point pvt Ltd
+412,"Hyderabad Central Mall(C1), Punjagutta",Telangana,Hyderabad,"Hyderabad Central, Punjagutta, NO.6-3-673,674/1, G.S CENTER POINT PUNJAGUTTA CROSS,
+ROAD, Hyderabad, Telangana -",17.4267784,78.4530533,Joule Point pvt Ltd
+413,"Suprabha Hotel(C2), Warangal",Telangana,Warangal,"Nakkalagutta, Hanamkonda , Warangal, Telangana- 506002",17.9999103,79.55617614,Joule Point pvt Ltd
+414,"Suprabha Hotel(C1), Warangal",Telangana,Warangal,"Nakkalagutta, Hanamkonda , Warangal , Telangana pin code 506002",17.9999103,79.55617614,Joule Point pvt Ltd
+415,"Khammam railway station , Nizampet",Telangana,Khammam,"9, Station Rd, Braman Bazar, Nizampet, Khammam, Telangana 507001",17.25120935,80.1393722,Joule Point pvt Ltd
+416,"Dornakal Railway Station, Telangana",Telangana,Mahaboobnagar,"Dornakal Railway Station,C5V3+R22,Dornakal, Telangana",17.44458341,80.15266623,Joule Point pvt Ltd
+417,"Hyderabad Central Mall(C3), Punjagutta",Telangana,Hyderabad,"Hyderabad Central, Punjagutta, NO.6-3-673,674/1, G.S CENTER POINT PUNJAGUTTA CROSS,
+ROAD, Hyderabad, Telangana -",17.42677361,78.45306505,Joule Point pvt Ltd
+418,"Jangaon Railway station, Telangana",Telangana,Jangaon,"near RAILWAY STATION,
+Jangaon, Telangana 506167",17.7242779,79.151783,Joule Point pvt Ltd
+419,"Kothagudem Railway station, Laxmidevipally",Telangana,Bhadradri Kothagudem,"Yellandu Bypass Rd, Srinagar, Laxmidevipally, Telangana 507101",17.55217191,80.61437834,Joule Point pvt Ltd
+420,"Madhira Railway Station, Madhira",Telangana,Khammam,"Madhira Railway Station, Madhira , Khammam, Telangana - 507203",16.92178338,80.36617912,Joule Point pvt Ltd
+421,"Begumpet Railway station , Telangana",Telangana,Hyderabad,Begumpet Railway station Telangana 500001,17.43884223,78.45754903,Joule Point pvt Ltd
+422,Warangal Railway station Warangal,Telangana,Warangal,"Warangal Railway station, Girmajipet, Warangal, Telangana 506002",17.97397306,79.60523274,Joule Point pvt Ltd
+423,Jammikunta Railway station Telangana,Telangana,Karimnagar,"Railway Station Road, Jammikunta, Telangana 505122",18.28989137,79.47653398,Joule Point pvt Ltd
+424,Mercure Hotel KCP-Hyderabad,Telangana,Hyderabad,"6-3-551, Banjara Hills Main Rd, Irram Manzil Colony, Punjagutta, Hyderabad, Telangana 500082",17.41759197,78.4564572,Joule Point pvt Ltd
+425,"Max Shopping Mall, Vanasthalipuram",Telangana,Ranga Reddy,"P No 31/1, Max Building, Vanasthalipuram, Hyderabad, Telangana 500070, India",17.335897,78.56947,Joule Point pvt Ltd
+426,"The Central Court Hotel(C3), Hyderabad",Telangana,Hyderabad,"6-1-71, Lakdikapul Rd, beside HDFC Bank, Saifabad, Khairtabad, Hyderabad,
+Telangana 500004",17.404397,78.465024,Joule Point pvt Ltd
+427,"C1(2), 120 KW, Rajiv Gandhi International Airport",Telangana,Ranga Reddy,"Rajiv Gandhi International Airport, Shamshabad, Hyderabad, Telangana, 500409",17.24033358,78.429286,Joule Point pvt Ltd
+428,"Kazipet Railway station, Warangal",Telangana,Medchal- Malkajgiri,"Kazipet Railway station, Rahamatnagar, Warangal",17.97518301,79.51035697,Joule Point pvt Ltd
+429,"The Central Court Hotel(C2), Hyderabad",Telangana,Hyderabad,"6-1-71, Lakdikapul Rd, beside HDFC Bank, Saifabad, Khairtabad, Hyderabad,
+Telangana 500004",17.4043904,78.46503376,Joule Point pvt Ltd
+430,"Anutex Shopping Mall(C3), AS Rao Nagar",Telangana,Medchal- Malkajgiri,"Dr. AS Rao Nagar Rd, Lakshmipuram Colony, Rukminipuri Colony, Kapra,
+Secunderabad, Telangana 500062",17.48134499,78.555532,Joule Point pvt Ltd
+431,"Nampally Railway station, Hyderabad",Telangana,Hyderabad,"Red Hills, Lakdikapul, Hyderabad, Telangana 500457",17.3920152,78.46806195,Joule Point pvt Ltd
+432,"Hotel DSR International, Shamshabad",Telangana,Ranga Reddy,"23-183/A/1, Road No- 8, Madhura Nagar Colony, Shamshabad",17.2598204,78.3835935,Joule Point pvt Ltd
+433,"C1, 120 KW, Rajiv Gandhi International Airport, Hyderabad",Telangana,Ranga Reddy,"Rajiv Gandhi International Airport, Shamshabad, Hyderabad, Telangana, 500409",17.240333,78.429286,Joule Point pvt Ltd
+434,JP30K062101 Kothapet DC 30 KW,Telangana,Hyderabad,"11-8-99, Narasimhapuri Colony, Kothapet, Hyderabad, Telangana 500035, India",17.363575,78.543142,Joule Point pvt Ltd
+435,Vikarabad Railway station Telangana,Telangana,Vikarabad,"Vikarabad, Telangana",17.33716727,77.90903393,Joule Point pvt Ltd
+436,"Jammikunta Railway Station, Telangana",Telangana,Karimnagar,"Jammikunta, Telangana",18.28985667,79.47639182,Joule Point pvt Ltd
+437,"Tandur Railway Station, Telangana",Telangana,Vikarabad,"Tandur Railway Station, Telangana - 501141",17.2512561,77.58464254,Joule Point pvt Ltd
+438,Karimnagar Railway station Telangana,Telangana,Karimnagar,Saraswathi Nagar Telangana,18.459566,79.14225362,Joule Point pvt Ltd
+439,"kagaz Nagar, Telangana",Telangana,Komaram Bheem,"Shop No:1-2-56, Adilabad, opp. Rajkumar Lodge, Kagaznagar (M), Telangana 504296",19.346868,79.49029706,Joule Point pvt Ltd
+440,"Mancherial Railway station, Telangana",Telangana,Manchirial,"Mancherial, Telangana",18.87886367,79.44899239,Joule Point pvt Ltd
+441,"Hyderabad Central (C2), Punjagutta",Telangana,Hyderabad,"Central Mall, Punjagutta, Hyderabad, Telangana 500082",17.42674098,78.45312238,Joule Point pvt Ltd
+442,Bellampalli Railway station Telangana,Telangana,Manchirial,"Railway Statiion Rd, Bellampalle, Telangana 504251",19.05177233,79.48561225,Joule Point pvt Ltd
+443,"Peddapalli Railway Junction, Telangana",Telangana,Pedapally,"Bus stand, Near, PDPL Railway station Rd, Kazipet, Pedapally, Telangana 505172",18.61353644,79.39194515,Joule Point pvt Ltd
+444,Ahoy Resto,Telangana,Hyderabad,"gundlapochampally road, Under Kompally Flyover, Sy no 35, Srinagar - Kanyakumari Hwy,
+Hyderabad, Telangana",17.5540123,78.4930073,Ather Energy Pvt Ltd
+445,Almond House Banjara Hills,Telangana,Hyderabad,"8-2-350/3/1, Next to Meena Bazar, Rd Number 3, Panchavati Society Colony, AK Enclave,
+Green Valley, Banjara Hills,",17.4270191,78.4434192,Ather Energy Pvt Ltd
+446,Almond House Kukatpally,Telangana,Hyderabad,"490, JNTU - Hitech City Road, K P H B Phase 3, Kukatpally, Hyderabad, Telangana",17.485859,78.39042,Ather Energy Pvt Ltd
+447,Almond House SD Road,Telangana,Hyderabad,"9-1-109/1B, Regimental Bazaar, Shivaji Nagar,",17.441011,78.503158,Ather Energy Pvt Ltd
+448,"Ather Grid, Gachibowli",Telangana,Hyderabad,"Financial District, Nanakaramguda, Telangana",17.40954,78.3530846,Ather Energy Pvt Ltd
+449,"Ather Grid, Road No. 36",Telangana,Hyderabad,"Jeep Jubilee Hills, Plot No, 240, Rd Number 36, next to Beyond Coffee, Jawahar Colony, Jubilee
+Hills, Hyderabad, Telangana",17.42979,78.412445,Ather Energy Pvt Ltd
+450,Ather Space Hyderabad,Telangana,Hyderabad,"Plot no. 1 & 2, Survey No - 64P, Rohini Layout Opp Shilparamam, Hitech City, Madhapur",17.452666,78.380343,Ather Energy Pvt Ltd
+451,Ather Space Nagole,Telangana,Hyderabad,"Near Sunrise cars, Plot no.64/B, Mamatha Nagar, Nagole X Road, near Supraja Hospital, Hyderabad,
+Telangana",17.377497,78.5580849,Ather Energy Pvt Ltd
+452,Ather Go,Telangana,Hyderabad,"160/1, Patny Center, Sardar Patel Rd, Hyderabad, Telangana",17.4435458,78.4798274,Ather Energy Pvt Ltd
+453,Chai Kahani - Sainikpuri,Telangana,Hyderabad,"colony, 1st Cross Vayupuri, Verka Residency, Vayupuri, Sainikpuri",17.486819,78.5431269,Ather Energy Pvt Ltd
+454,Double Deck Restaurant,Telangana,Hyderabad,"Moosarambagh Rd, Sripuram Colony, Malakpet Extension, Old Malakpet, Hyderabad, Telangana",17.3766426,78.5145151,Ather Energy Pvt Ltd
+455,DSL Virtue Mall,Telangana,Hyderabad,"Near Rajiv Gandhi International Cricket Stadium, Survey Colony, Industrial Development Area,
+Uppal, Hyderabad, Telangana",17.3998101,78.5551167,Ather Energy Pvt Ltd
+456,F3 Drive-in,Telangana,Hyderabad,"near Fusion International School, Ameenpur, Miyapur, Telangana",17.5173192,78.3188293,Ather Energy Pvt Ltd
+457,Flip Side,Telangana,Hyderabad,"ISB Rd, Financial District, Nanakramguda, Hyderabad, Telangana",17.4139784,78.3275492,Ather Energy Pvt Ltd
+458,Gravity Drive In,Telangana,Hyderabad,"Plot No.19, Kismatpur Rd, behind HP Petrol Bunk, Abhyudaya Nagar, Bandlaguda Jagir,
+Telangana",17.3587438,78.3876219,Ather Energy Pvt Ltd
+459,"Heart Cup Coffee, Gachibowli",Telangana,Hyderabad,"Old Mumbai Hwy, next to HP Petrol Pump (Venkatadri Fuel Point, FCI Employees Cooperative
+Housing Society, Indira Nagar,",17.4453566,78.3556014,Ather Energy Pvt Ltd
+460,Metro Adda,Telangana,Hyderabad,"Metro Station 6-1, 70, Lakdikapul Rd, near to Lakdikapul, Hyderabad, Telangana",17.404026,78.465186,Ather Energy Pvt Ltd
+461,Narahari Silk House,Telangana,Hyderabad,"18-6-828, Lal Darwaza Rd, Balagunj, Lal Darwaza South, Lal Darwaza, Hyderabad, Telangana",17.34763,78.475397,Ather Energy Pvt Ltd
+462,Narsingh Madeenaguda,Telangana,Hyderabad,"Plot no.186,Beside Triveni Public School, Mythri Nagar, Madeenaguda, Telangana",17.494073,78.347615,Ather Energy Pvt Ltd
+463,Noma Talkies,Telangana,Hyderabad,"3-4-99, Nacharam - Mallapur Rd, May Flower Hights, Vivekananda Nagar, Mallapur, Secunderabad,
+Telangana",17.447469,78.57175,Ather Energy Pvt Ltd
+464,O'Rica | Tropical Kitchen,Telangana,Hyderabad,"1-5-1115, 646, Lane No. 24,
+Panchsheel Enclave, Alwal, Hyderabad, Telangana",17.5137264,78.4899303,Ather Energy Pvt Ltd
+465,Sarath City Capital Mall,Telangana,Hyderabad,"Capital Mall, GF-070 & 071, Sarath City, Gachibowli - Miyapur Rd, Forest Dept Colony,
+Kondapur, Hyderabad, Telangana",17.456842,78.364575,Ather Energy Pvt Ltd
+466,"Swiss Castle, Vidyanagar",Telangana,Hyderabad,"2-1-565/F/4, Nallakunta Main Rd, Vidya Nagar, Adikmet, Hyderabad",17.400595,78.508078,Ather Energy Pvt Ltd
+467,Taj Mahal Hotel,Telangana,Hyderabad,"5-9-502, Gun Foundry Street Number 1, Gun Foundry, Abids",17.3916834,78.4766724,Ather Energy Pvt Ltd
+468,The Avenue Bar & Kitchen,Telangana,Hyderabad,"21st Avenue, Nagarjuna Sagar Ring Rd, Sathavahana Nagar, Bairamalguda, Telangana",17.343403,78.545447,Ather Energy Pvt Ltd
+469,The Moonshine Project restaurant Jubilee Hills,Telangana,Hyderabad,"385, Road Number 82, Film Nagar, Jubilee Hills,",17.41419983,78.40769958,Ather Energy Pvt Ltd
+470,Zozoz Pizzeria,Telangana,Hyderabad,"Rd Number 45, opposite Khazana, CBI Colony, Jubilee Hills, Hyderabad, Telangana",17.4306503,78.4020035,Ather Energy Pvt Ltd
+471,"Sarrornagar Indoor Stadium, Sarrornagar (V & M), Ranga Reddy District",Telangana,Ranga Redddy,"Sarrornagar Indoor Stadium, Sarrornagar (V & M), Ranga Reddy District,",17.354811,78.545501,TGREDCO
+472,Infront of Nagole RTA  parking,Telangana,Ranga Redddy,"Infront of Nagole RTA  parking, Nagole, Uppal, Rangareddy",17.3697,78.557606,TGREDCO
+473,"Infront of E-Seva Centre, Vanasthalipuram",Telangana,Ranga Redddy,"Infront of E-Seva Centre, Vanasthalipuram, Hayathnagar Rangareddy",17.328147,78.568734,TGREDCO
+474,Opposite near TCS IIT  parking,Telangana,Ranga Redddy,"Opposite near TCS IIT  parking, Serilingampally, Rangareddy",17.450949,78.34648,TGREDCO
+475,"GHMC Zonal Commissioner office, Serilingampally",Telangana,Ranga Redddy,"GHMC Zonal Commissioner office, Serilingampally, Rangareddy",17.469192,78.329564,TGREDCO
+476,Durgam Cheruvu GHMC parking,Telangana,Ranga Redddy,"Durgam Cheruvu GHMC parking, Gachiboeli, Rangareddy",17.436861,78.38894,TGREDCO
+477,"Opposite to Gachibowli Stadium, Gachibowli",Telangana,Ranga Redddy,"Opposite to Gachibowli Stadium, Gachibowli, Serilingampally, Ranga reddy",17.450949,78.34648,TGREDCO
+478,"Mother Teresa Statue near clock tower, Secunderabad",Telangana,Hyderabad,"Mother Teresa Statue near clock tower, Secunderabad,",17.437424,78.504371,TGREDCO
+479,"Old Passport office Secunderabad, Hyderabad",Telangana,Hyderabad,"Old Passport office  Secunderabad, Hyderabad",17.439094,78.498864,TGREDCO
+480,"Amberpet Police Station, opp to HP petrol bunk, Hyd",Telangana,Hyderabad,"Amberpet Police Station, opp to HP petrol bunk, Hyd, Amberpet, Hyderabad",17.387283,78.516633,TGREDCO
+481,"HMDA Truck Parking,Beside IOCL petrol Bunk",Telangana,Ranga Redddy,"HMDA Truck Parking,Beside IOCL petrol Bunk, kothaguda, Abdullapurmet, Rangareddy",17.30509N,78.74210E,TGREDCO
+482,Deloitee Meenakshi (Opposite to deloitte Office),Telangana,"Ranga ReddyDist,","Deloitee Meenakshi (Opposite to deloitte Office),Gachibowli, Sherilingampally",17. 431937,78.385439,TGREDCO
+483,BHEL MIG Colony (Beside Bus Stop),Telangana,"Sanga ReddyDist,","BHEL MIG Colony (Beside Bus Stop),MIG Colony, Patancheru, Sanga Reddy",17.486988,78.313281,TGREDCO
+484,Hyderabad Central University (HCU) (Before HCU Bus Stop),Telangana,"Ranga ReddyDist,","Hyderabad Central University
+(HCU) (Before HCU Bus Stop),Gachibowli, Sherilingampally",17.462518,78.335204,TGREDCO
+485,Infront of Lingampally Railway Station,Telangana,"Ranga ReddyDist,","Infront of Lingampally Railway Station,Sherilingampally, Ranga Reddy",17.483524,78.316069,TGREDCO
+486,"Opposite DLF Building,Gachibowli",Telangana,"Ranga ReddyDist,","Opposite DLF Building,Gachibowli,Gachibowli, Sherilingampally",17.447149,78.353132,TGREDCO
+487,"7 Tombs Road, near Tol chowki circle",Telangana,Hyderabad,"7 Tombs Road, near Tol chowki circle,Bapu Nagar, Langer House, Golkonda",17.39363,78.40013,TGREDCO
+488,"Imperial Hotel Opposite, Shaikpet",Telangana,Hyderabad,"Imperial Hotel Opposite, Shaikpet,Qutub Shahi Tomb Rd, Shaikpet",17.397212,78.420251,TGREDCO
+489,Chanda Nagar GHMC Office compound inside,Telangana,"Ranga ReddyDist,","Chanda Nagar GHMC Office compound inside,Gangaram, Chandanagar, Sherilingampally",17.494737,78.326127,TGREDCO
+490,"Foot over bridge beside, near Allwin X road",Telangana,"Ranga ReddyDist,","Foot over bridge beside, near Allwin X road,Chanda Nagar, Sherilingampally",17. 494189,78.35012,TGREDCO
+491,"Krishna Kanth Park, near yousufguda Basthi",Telangana,Hyderabad,"Krishna Kanth Park, near yousufguda Basthi,Yousufguda, Khairatabad, Hyderabad",17.441321,78.431895,TGREDCO
+492,Infront of Rajeev Nagar Colony Park,Telangana,Hyderabad,"Infront of Rajeev Nagar Colony Park,Rajeev Nagar, Borabanda, Khairatabad, Hyderabad",17.448998,78.425138,TGREDCO
+493,"Infront of IT Park, Sanathnagar",Telangana,Hyderabad,"Infront of IT Park, Sanathnagar,Sanathnagar, Balanagar, Hyderabad",17.456725,78.442931,TGREDCO
+494,LB Stadium near CCS,Telangana,Hyderabad,"LB Stadium near CCS,Band Colony, Adarsh Nagar, Nampally, Hyderabad",17.399266,78.471027,TGREDCO
+495,"Esamiya Bazar, near Chadarghat Bridge",Telangana,Hyderabad,"Esamiya Bazar, near Chadarghat Bridge,Koti, Khairatabad, Hyderabad",17.381872,78.491532,TGREDCO
+496,"Vivek Vardhini Educational
+Society High School, Infront of OU Medical College metro station",Telangana,Hyderabad,"Vivek Vardhini Educational
+Society High School, Infront of OU Medical College metro station,Jambagh, Koti, Nampally,",17.383116,78.479159,TGREDCO
+497,Gymkhana Substation,Telangana,Hyderabad,"Gymkhana substation, P&T Colony, Karkhana, Hyderabad",17.453163,78.495609,TGREDCO
+498,Maredpally Substation,Telangana,Hyderabad,"Maredpally Substation, E
+Maredpally Road, Mahatms Gandhi Nagar, West Maredpally, Hyderabad",17.453991,78.512142,TGREDCO
+499,Hakimpet Substation,Telangana,Hyderabad,"Hakimpet Substation, Hakimpet, Hyderabad",17.526755,78.514643,TGREDCO
+500,HMT Substation,Telangana,Medchal Malkajgiri,"HMT Substation, TSSPDCL, HMT Colony",17.500351,78.451606,TGREDCO
+501,Bowenpally Substation,Telangana,"Hyderabad,","Bowenpally Substation, Pension Lane, Bowenpally, Hyderabad",17.461805,78.467627,TGREDCO
+502,R.P Nilayam Substation,Telangana,"Hyderabad,","RP Nilayam Substation, Lotukunta, Alwal, Hyderabad",17.496348,78.514643,TGREDCO
+503,Allwyn Substation,Telangana,"Hyderabad,","Alwyn Substation, Czech Colony, Sanathnagar, Hyderabad",17.456729,78.436202,TGREDCO
+504,ADE Santhoshnagar &Santoshnagar Substation,Telangana,"Hyderabad,","ADE Santhoshnagar Substation, Zohra Nagar, Santhoshnagar",17.347217,78.500456,TGREDCO
+505,Uppal Sub Station,Telangana,"Hyderabad,","Uppal Substation, TSSPDCL, Beerappagadda, Uppal",17.401756,78.562226,TGREDCO
+506,Fever Hospital 132 KV Sub Station,Telangana,"Hyderabad,","Fever Hospital Substation, Hyderabad",17.396409,78.499364,TGREDCO
+507,Moulali Sub Station,Telangana,Medchal Malkajgiri,"Moulaali Substation, TSSPDCL, APIIC Colony, Moulaali",17.454898,78.559057,TGREDCO
+508,Ibrahim Bagh Substation,Telangana,Ranga Redddy,"Ibrahimbagh Substation, Ibrahimbagh",17.38531,78.34393,TGREDCO
+509,Malaysian Township Substation,Telangana,"Hyderabad,","Malaysian Township Substation, TSSPDCL, Kukatpally",17.480683,78.389335,TGREDCO
+510,Saroornagar circle office backside,Telangana,Ranga Redddy,"Saroornagar Circle Office backside, Gayatri Nagar, Saroornagar",17.35861,78.536296,TGREDCO
+511,Telephone colony,Telangana,Ranga Redddy,"Telephone Colony, Kothapet-RK Puram road, Mrgadarshi Colony, Kothapet",17.36627,78.543617,TGREDCO
+512,ZPHS School Back side Opp. Federal Bank,Telangana,Ranga Redddy,"ZPHS School Back side Opp. Federal Bank, Saroornagar road, SBH Colony, L.B Nagar",17.347105,78.549137,TGREDCO
+513,Rocktown Colony park,Telangana,Ranga Redddy,"Rocktown Colony  Park, Rocktown Colony, Mansoorbad,
+L.B Nagar",17.359948,78.560541,TGREDCO
+514,"Vijay garden colony park, bandlaguda",Telangana,Ranga Redddy,"Vijay garden colony park,Vijay garden colony,  bandlaguda, Nagole",17.372452,78.567906,TGREDCO
+515,"Sachivalaya nagar kaman, Opp water tank",Telangana,Ranga Redddy,"Sachivalaya nagar kaman, Opp
+water tank, NGO Colony Road, Schivalaya Colony, Vanasthalipuram",17.328966,78.56917,TGREDCO
+516,"Videhi nagar Busstop, Behind Community hall",Telangana,Ranga Redddy,"Videhi nagar Busstop, Behind Community hall, Vanasthalipuram",17.321072,78.572296,TGREDCO
+517,Sachivalaya nagar colony park,Telangana,Ranga Redddy,"Sachivalaya nagar colony park, NGO Colony, Vanasthalipuram",17.324976,78.571389,TGREDCO
+518,Sachivalaya nagar colony community hall,Telangana,Ranga Redddy,"Sachivalaya nagar colony community hall, Sachivalaya Colony, Vanasthalipuram",17.328757,78.572246,TGREDCO
+519,Vivekananda nagar colony park,Telangana,Ranga Redddy,"Vivekananda nagar colony park, NGO Colony Road, Sachivalaya Colony, Vnasthalipuram",17.328853,78.571375,TGREDCO
+520,Cherlapally  Bus stop Beside,Telangana,Medchal Malkajgiri,"Cherlapally  Bus stop Beside, Cherlapally -Rampally-Ghatkesar Road, Cherlapally",17.463289,78.611843,TGREDCO
+521,"GHMC Theme park, Beside GHMC Dumping yard, Mallapur X Road",Telangana,Medchal Malkajgiri,"GHMC Theme park, Beside GHMC Dumping yard, Mallapur X Road",17.445355,78.574288,TGREDCO
+522,"Nacharam to mallapur road, opp lepakshi furniture showroom",Telangana,Medchal Malkajgiri,"Nacharam to mallapur road, opp lepakshi furniture showroom,IDA Nacharam",17.439627,78.56145,TGREDCO
+523,"Habsiguda to uppal main rd, opp. Uppal Stadium ,metro pillar C929",Telangana,Medchal Malkajgiri,"Habsiguda to uppal main rd, opp. Uppal Stadium ,metro pillar C929",17.410035,78.551203,TGREDCO
+524,"Uppal to nagole service Rd, Beside GHMC Dumping yard,Metro pillar no . : C819",Telangana,Medchal Malkajgiri,"Uppal to nagole service Rd, Beside GHMC Dumping yard,Metro pillar no . : C819",17.387666,78.558873,TGREDCO
+525,"Uppal to NGRI Main Rd , Beside Shell petrol Pump",Telangana,Medchal Malkajgiri,"Uppal to NGRI Main Rd , Beside Shell petrol Pump,Hubsiguda",17.411157,78.550258,TGREDCO
+526,GSI Compound Wall,Telangana,Ranga Redddy,"GSI Compound Wall, GSI Road, Bandlaguda, Thyagaraya Nagar",17.364752,78.570258,TGREDCO
+527,GHMC Circle Office,Telangana,Medchal Malkajgiri,"GHMC Circle Office, Kapra, ECIL Main Road, Moulaali",17.470095,78.566355,TGREDCO
+528,GHMC A.S Rao Nagar Colony Park,Telangana,Medchal Malkajgiri,"GHMC A.S Rao Nagar Colony Park, AS Rao Nagar",17.48018,78.555667,TGREDCO
+529,Sainikpuri GHMC Shopping Complex,Telangana,Medchal Malkajgiri,"Sainikpuri GHMC Shopping Complex, As Rao Nagar Road, Sainikpuri",17.483913,78.549755,TGREDCO
+530,Mallapur to Nacharam Road Opp. Johnson Grammar School,Telangana,Medchal Malkajgiri,"Mallapur to Nacharam Road, Opp. Johnson Grammar School, Nacharam",17.436517,78.555327,TGREDCO
+531,"TSIIC IALA TSIIC – II, Near
+220/132 KV SS Jeedimetla",Telangana,Medchal Malkajgiri,"TSIIC IALA TSIIC – II, Near
+220/132 KV SS Jeedimetla","17.522686,",78.443376,TGREDCO
+532,TSIIC IALA office of the Commissioneer,Telangana,Medchal Malkajgiri,"TSIIC IALA office of the Commissioneer, Cherlapally",17.471291,78.597205,TGREDCO
+533,"TSIIC, IALA TSIIC-II Phase V
+Industrial Area, Jeedimetla",Telangana,Medchal Malkajgiri,"TSIIC, IALA TSIIC-II Phase V
+Industrial Area, Jeedimetla",17.523957,78.452365,TGREDCO
+534,"TSIIC IALA Opp SBI SME
+Branch",Telangana,Medchal Malkajgiri,"TSIIC IALA Opp SBI SME
+Branch, Kusahaiguda",17.475985,78.572084,TGREDCO
+535,"TSIIC IALA Office of the Commissioner, Nacharam",Telangana,Medchal Malkajgiri,"TSIIC IALA Office of the Commissioner, Nacharam",17.42619,78.561433,TGREDCO
+536,TSIIC IALA E City,Telangana,Ranga Reddy,"Sy No. 114/1, TSIIC IALA E City",17.19599,78.491582,TGREDCO
+537,TSIIC IALA E City Near Admin Building,Telangana,Ranga Reddy,"Sy No. 114/1, TSIIC IALA E City
+Near Admin Building",17.203614,78.49028,TGREDCO
+538,"TSIIC IP Hardware park, Zonal Office",Telangana,Ranga Reddy,"TSIIC Sy No.1/1, TSIIC IP
+Hardware park, Zonal Office Opp",17.25103,78.474803,TGREDCO
+539,", TSIIC Plastic Park Mankhal",Telangana,Ranga Reddy,"TSIIC Sy No. 193, TSIIC Plastic Park Mankhal",17.16581,78.474755,TGREDCO
+540,"Wipro Circle, Nanakramguda",Telangana,Ranga Reddy,"Wipro Circle, Nanakramguda, Serilingampally",17.425633,78.339334,TGREDCO
+541,"Opp. To T-Works, HKC Raidurg",Telangana,Ranga Reddy,"Opp. To T-Works, HKC Raidurg, Serilingampally",17.434174,78.278,TGREDCO
+542,"HKC Raidurg, Serilingampally",Telangana,Ranga Reddy,"Near IOCL, HKC Raidurg, Serilingampally",17.436541,78.374863,TGREDCO
+543,"Ramiji Film City Parking, Near Exit Gate",Telangana,Ranga Reddy,"Ramiji Film City Parking, Near Exit Gate, Anajpur Hyderabad, Ranga Reddy",17.310173,78.683082,TGREDCO
+544,"Basheerbagh Road, Hyderabad",Telangana,Hyderabad,"Basheerbagh Road, Hyderabad",17.404833,78.476712,TGREDCO
+545,"Gunfoundry, Hyderabad",Telangana,Hyderabad,"Gunfoundry, Hyderabad",17.395958,78.475026,TGREDCO
+546,"Indira park, Hyderabad",Telangana,Hyderabad,"Indira park, Hyderabad",17.411606,78.485028,TGREDCO
+547,"KBR Park Gate No.1, Hyderabad",Telangana,Hyderabad,"KBR Park Gate No.1, Hyderabad",17.423482,78.424411,TGREDCO
+548,"KBR Park Gate No.3, Hyderabad",Telangana,Hyderabad,"KBR Park Gate No.3, Hyderabad",17.425592,78.418813,TGREDCO
+549,"KBR Park Gate No.6, Hyderabad",Telangana,Hyderabad,"KBR Park Gate No.6, Hyderabad",17.42015,78.412218,TGREDCO
+550,"Tank Bund Road, Near VST Bridge",Telangana,Hyderabad,"Tank Bund Road, Near VST Bridge",17.411769,78.48208,TGREDCO
+551,"Nanakramguda, Hyderabad",Telangana,Hyderabad,"Nanakramguda, Hyderabad",17.417537,78.367299,TGREDCO
