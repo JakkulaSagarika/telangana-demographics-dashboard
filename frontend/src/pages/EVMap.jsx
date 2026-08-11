@@ -131,7 +131,21 @@ export default function EVMap() {
   };
 
   return (
-    <div className="district-map-wrap" style={{ height: '78vh', minHeight: 520 }}>
+     <>
+    <section className="nearby-hero">
+      <div>
+        <p className="eyebrow">EV INFRASTRUCTURE · INTERACTIVE MAP</p>
+        <h1>Interactive EV map</h1>
+        <p>
+          Explore Telangana's EV charging network by district, view station
+          coverage, and discover charging infrastructure across the state.
+        </p>
+      </div>
+    </section>
+    <div
+  className="district-map-wrap"
+  style={{ height: '78vh', minHeight: 520, marginTop: '65px' }}
+>
       <div className="district-map-toolbar">
         <div className="district-search">
           <label className="district-combobox">
@@ -206,5 +220,6 @@ export default function EVMap() {
 
       <EVDistrictPanel district={districtInfo} onClose={resetSelection} />
     </div>
+  </>
   );
 }

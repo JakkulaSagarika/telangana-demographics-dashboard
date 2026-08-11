@@ -391,3 +391,8 @@
     font-size: 38px;
   }
 }
+
+/* Move Interactive Map slightly down */
+.ev-shell .interactive-map-page {
+  padding-top: 35px;
+}
