@@ -1,5 +1,20 @@
+.ev-dashboard-page {
+  min-height: 100vh;
+  background-image: url('/ev-dashboard-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .ev-dashboard {
   padding-bottom: 24px;
+  min-height: 100vh;
+  background-image: url('/ev-dashboard-bg.png') !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .ev-hero {
@@ -12,6 +27,7 @@
 
 .ev-hero h1 {
   margin: 3px 0 8px;
+  max-width: 800px;
   font: 700 clamp(32px, 4.2vw, 56px) 'Playfair Display', serif;
   color: #fff;
   text-shadow: 0 5px 18px rgba(0, 0, 0, 0.24);
@@ -282,4 +298,96 @@
   .stations-hero { padding:24px 18px; }.stations-kpi,.stations-filters { grid-template-columns:1fr; }.stations-charts > article,.stations-directory { padding:14px; }.stations-pie-chart { grid-template-columns:115px minmax(0,1fr); }.stations-directory-heading { display:block; }.stations-directory-heading > span { display:block; margin-top:7px; text-align:left; }.stations-table-wrap { overflow:visible; border:0; }.stations-table,.stations-table tbody,.stations-table tr,.stations-table td { display:block; width:100%; }.stations-table thead { display:none; }.stations-table tr { margin-bottom:10px; padding:11px; border:1px solid #e7ebf2; border-radius:12px; background:#fff; }.stations-table td { display:grid; grid-template-columns:86px minmax(0,1fr); gap:10px; padding:6px 0; border:0; color:#475569; }.stations-table td::before { content:attr(data-label); color:#64748b; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }.stations-table td:nth-child(4) { max-width:none; white-space:normal; }.stations-table td:first-child { padding-top:0; }.stations-table td:last-child { padding-bottom:0; }.stations-pagination { align-items:flex-start; flex-direction:column; }.stations-pagination div { width:100%; }.stations-pagination button { flex:1; }
   .station-detail-hero { display:block; padding:24px 18px; }.station-navigate-primary { display:block; margin-top:18px; text-align:center; }.station-detail-kpis { grid-template-columns:1fr; }.station-info-card,.station-map-card,.station-nearby-card,.station-distance-card { padding:14px; }.station-detail-map { height:300px; }.station-section-heading h2,.station-info-card h2,.station-distance-card h2 { font-size:19px; }.station-section-heading > span { display:none; }.station-nearby-list a { grid-template-columns:28px minmax(0,1fr); }.station-nearby-list em { grid-column:2; }.station-nearby-list strong,.station-nearby-list span { white-space:normal; }
   .district-ev-hero { display:block; padding:24px 18px; }.district-ev-back { display:inline-block; margin-top:18px; }.district-ev-selector { display:block; }.district-ev-selector p { margin-top:10px; }.district-ev-kpis,.district-ev-grid { grid-template-columns:1fr; }.district-ev-card,.district-ev-map-card,.district-ev-table-card { padding:14px; }.district-ev-map { height:310px; }.district-ev-heading h2,.district-ev-table-heading h2 { font-size:19px; }.district-ev-pie { grid-template-columns:125px minmax(0,1fr); }.district-ev-table-heading { display:block; }.district-ev-table-heading input { max-width:none; margin-top:12px; }.district-ev-table-wrap { overflow:visible; border:0; }.district-ev-table-wrap table,.district-ev-table-wrap tbody,.district-ev-table-wrap tr,.district-ev-table-wrap td { display:block; width:100%; }.district-ev-table-wrap thead { display:none; }.district-ev-table-wrap tr { margin-bottom:10px; padding:11px; border:1px solid #e7ebf2; border-radius:12px; background:#fff; }.district-ev-table-wrap td { display:grid; grid-template-columns:86px minmax(0,1fr); gap:10px; padding:6px 0; border:0; }.district-ev-table-wrap td::before { content:attr(data-label); color:#64748b; font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; }.district-ev-table-wrap td:nth-child(3) { max-width:none; white-space:normal; }.district-ev-table-wrap td:first-child { padding-top:0; }.district-ev-table-wrap td:last-child { padding-bottom:0; }
+}
+
+.ev-shell .ev-hero {
+  padding-top: 35px;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 32px 28px 18px;
+}
+
+/* =========================================================
+   EV PAGES - COMMON FLOATING HERO STYLE
+   ========================================================= */
+
+.ev-shell .ev-hero,
+.ev-shell .nearby-hero,
+.ev-shell .route-hero,
+.ev-shell .stations-hero,
+.ev-shell .station-detail-hero,
+.ev-shell .district-ev-hero {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 32px 28px 18px;
+}
+
+/* Floating headings */
+.ev-shell .ev-hero h1,
+.ev-shell .nearby-hero h1,
+.ev-shell .route-hero h1,
+.ev-shell .stations-hero h1,
+.ev-shell .station-detail-hero h1,
+.ev-shell .district-ev-hero h1 {
+  max-width: 800px;
+  margin: 3px 0 8px;
+  font: 700 clamp(32px, 4.2vw, 56px) 'Playfair Display', serif;
+  color: #fff;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.22);
+}
+
+/* Floating descriptions */
+.ev-shell .ev-hero p:not(.eyebrow),
+.ev-shell .nearby-hero p:not(.eyebrow),
+.ev-shell .route-hero p:not(.eyebrow),
+.ev-shell .stations-hero p:not(.eyebrow),
+.ev-shell .station-detail-hero p:not(.eyebrow),
+.ev-shell .district-ev-hero p:not(.eyebrow) {
+  max-width: 700px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.55;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* Remove old gradient overlays */
+.ev-shell .ev-hero::before {
+  display: none;
+}
+
+/* Keep the small information strip subtle */
+.ev-shell .ev-hero-mark {
+  max-width: 100%;
+  margin-top: 8px;
+}
+
+/* Give every EV page a little more breathing room */
+.ev-shell main {
+  padding-top: 18px;
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .ev-shell .ev-hero,
+  .ev-shell .nearby-hero,
+  .ev-shell .route-hero,
+  .ev-shell .stations-hero,
+  .ev-shell .station-detail-hero,
+  .ev-shell .district-ev-hero {
+    padding: 24px 18px 14px;
+  }
+
+  .ev-shell .ev-hero h1,
+  .ev-shell .nearby-hero h1,
+  .ev-shell .route-hero h1,
+  .ev-shell .stations-hero h1,
+  .ev-shell .station-detail-hero h1,
+  .ev-shell .district-ev-hero h1 {
+    max-width: 100%;
+    font-size: 38px;
+  }
 }

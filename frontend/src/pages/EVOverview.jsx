@@ -46,7 +46,7 @@ export default function EVOverview() {
   }
 
   return (
-    <div className="ev-dashboard">
+    <div className="ev-dashboard ev-dashboard-page">
       <section className="ev-hero">
         <div>
           <p className="eyebrow">Home · EV infrastructure</p>
