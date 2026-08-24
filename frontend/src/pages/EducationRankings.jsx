@@ -1,0 +1,26 @@
+import { useEffect, useMemo, useState } from 'react'
+import { getEducationMultiYearOverview } from '../api'
+import '../education-dashboard.css'
+
+const format = value => new Intl.NumberFormat('en-IN', { maximumFractionDigits: 0 }).format(value || 0)
+const metrics = [['total_schools','Total schools'],['primary_schools','Primary schools'],['upper_primary_schools','Upper-primary schools'],['high_schools','High schools'],['higher_secondary_schools','Higher secondary schools'],['total_colleges','Total colleges'],['junior_colleges','Junior colleges'],['degree_colleges','Degree colleges'],['engineering_colleges','Engineering colleges'],['pharmacy_colleges','Pharmacy colleges'],['mba_colleges','MBA colleges'],['mca_colleges','MCA colleges'],['bed_colleges','B.Ed. colleges'],['law_colleges','Law colleges'],['total_enrollment','Total enrollment'],['primary_enrollment','Primary enrollment'],['upper_primary_enrollment','Upper-primary enrollment'],['high_enrollment','High school enrollment'],['higher_secondary_enrollment','Higher secondary enrollment'],['total_college_seats','College seats']]
+const school = {primary_schools:'Primary',upper_primary_schools:'Upper primary',high_schools:'High',higher_secondary_schools:'Higher secondary'}
+const enrollment = {primary_enrollment:'Primary',upper_primary_enrollment:'Upper primary',high_enrollment:'High',higher_secondary_enrollment:'Higher secondary'}
+const college = {junior_colleges:'Junior',degree_colleges:'Degree',engineering_colleges:'Engineering',pharmacy_colleges:'Pharmacy',mba_colleges:'MBA',mca_colleges:'MCA',bed_colleges:'B.Ed.',law_colleges:'Law'}
+function value(district, metric) { if (metric in school) return district.school_distribution?.[school[metric]]; if (metric in enrollment) return district.enrollment_distribution?.[enrollment[metric]]; if (metric in college) return district.college_distribution?.[college[metric]]; return district[metric] }
+function available(year, metric) { return year.districts.some(district => value(district, metric) != null) }
+function ranks(year, metric) { return year.districts.filter(district => value(district, metric) != null).sort((a,b) => value(b,metric)-value(a,metric) || a.name.localeCompare(b.name)).reduce((all,district,index) => ({...all,[district.slug]:{rank:index+1,value:value(district,metric)}}),{}) }
+
+export default function EducationRankings() {
+  const [data,setData] = useState(null), [error,setError] = useState(''), [metric,setMetric] = useState('total_schools')
+  useEffect(() => { getEducationMultiYearOverview().then(setData).catch(error => setError(error.message)) }, [])
+  const annual = data?.annual || []
+  const options = useMemo(() => metrics.filter(([key]) => annual.some(year => available(year,key))), [annual])
+  const ranking = useMemo(() => Object.fromEntries(annual.map(year => [year.year,ranks(year,metric)])), [annual,metric])
+  const applicable = annual.filter(year => available(year,metric))
+  const districts = useMemo(() => { const all = new Map(); annual.forEach(year => year.districts.forEach(district => all.set(district.slug,district))); const latest = applicable.at(-1); return [...all.values()].sort((a,b) => (ranking[latest?.year]?.[a.slug]?.rank || Infinity)-(ranking[latest?.year]?.[b.slug]?.rank || Infinity) || a.name.localeCompare(b.name)) }, [annual,applicable,ranking])
+  const change = slug => { const latest=applicable.at(-1), prior=applicable.at(-2), now=ranking[latest?.year]?.[slug]?.rank, before=ranking[prior?.year]?.[slug]?.rank; if(now==null||before==null)return '—'; const delta=before-now; return delta===0?'—':<span className={delta>0?'rank-up':'rank-down'}>{delta>0?'↑':'↓'} {Math.abs(delta)}</span> }
+  if (!data && !error) return <div className="loading">Loading multi-year district rankings…</div>
+  if (error) return <div className="notice">{error}</div>
+  return <div className="education-rankings-page"><section className="compare-heading"><div><p className="eyebrow">Education analytics · district explorer</p><h1>District rankings</h1><p>Each column ranks districts independently for its supplied reporting year. Missing values are not estimated.</p></div><label className="rankings-filter">Rank by <select value={metric} onChange={event=>setMetric(event.target.value)}>{options.map(([key,label])=><option value={key} key={key}>{label}</option>)}</select></label></section><section className="rankings-key"><span><b>{metrics.find(([key])=>key===metric)?.[1]}</b> · higher values rank first</span><span>Rank change compares the latest two reporting years containing this metric.</span></section><section className="education-ranking-table-card"><div className="education-ranking-table-wrap"><table><thead><tr><th>District</th>{annual.map(year=><th key={year.year}>{year.year}<small>{available(year,metric)?'Rank · value':'Not supplied'}</small></th>)}<th>Rank change<small>Latest vs prior</small></th></tr></thead><tbody>{districts.map(district=><tr key={district.slug}><td><b>{district.name}</b></td>{annual.map(year=>{const cell=ranking[year.year]?.[district.slug];return <td key={year.year}>{cell?<><b>#{cell.rank}</b><small>{format(cell.value)}</small></>:'—'}</td>})}<td className="rank-change">{change(district.slug)}</td></tr>)}</tbody></table></div></section></div>
+}

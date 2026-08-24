@@ -1,6 +1,111 @@
+import csv
+from pathlib import Path
+
+from django.conf import settings
+from django.utils.text import slugify
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .models import EducationDistrict, EducationDropout
+
+
+MULTI_SCHOOL_FIELDS = {
+    "Primary": ("Primary Schools", "Primary Schools Enrollment"),
+    "Upper primary": ("Upper Primary Schools", "Upper Primary Schools Enrollment"),
+    "High": ("High Schools", "High Schools Enrollment"),
+    "Higher secondary": ("Higher Secondary Schools", "Higher Secondary Schools Enrollment"),
+    "Model": ("Model Schools", "Model Schools Enrollment"),
+    "KGBV": ("KGBV Schools", "KGBV Schools Enrollment"),
+    "Central": ("Central Schools", "Central Schools Enrollment"),
+}
+MULTI_COLLEGE_FIELDS = {
+    "Junior": ("Junior Colleges", None), "Degree": ("Degree Colleges", "Degree Colleges Seats"),
+    "Engineering": ("Engineering Colleges", "Engineering Colleges Seats"), "Pharmacy": ("Pharmacy Colleges", "Pharmacy Colleges Seats"),
+    "MBA": ("MBA Colleges", "MBA Colleges Seats"), "MCA": ("MCA Colleges", "MCA Colleges Seats"),
+    "B.Ed.": ("B.Ed. Colleges", "B.Ed. Colleges Seats"), "Law": ("Law Colleges", "Law Colleges Seats"),
+}
+MULTI_NAME_ALIASES = {
+    "bhadradri": "Bhadradri Kothagudem", "jayashankar": "Jayashankar Bhupalpalli",
+    "jogulamba": "Jogulamba Gadwal", "kumuram bheem": "Komaram Bheem Asifabad",
+    "komaram bheem": "Komaram Bheem Asifabad", "medchal": "Medchal Malkajgiri",
+    "medchal-malkajigiri": "Medchal Malkajgiri", "rajanna": "Rajanna Sircilla",
+    "warangal r": "Warangal Rural", "warangal u": "Warangal Urban", "yadadri": "Yadadri Bhuvanagiri",
+}
+
+
+def multi_name(value):
+    clean = " ".join((value or "").replace("(", " ").replace(")", " ").split()).lower()
+    return MULTI_NAME_ALIASES.get(clean, clean.title())
+
+
+def multi_number(value):
+    try:
+        return int(float(str(value or "0").replace(",", "").strip()))
+    except ValueError:
+        return 0
+
+
+def first_existing(paths):
+    return next((Path(path) for path in paths if Path(path).exists()), None)
+
+
+def multi_year_payload():
+    """Build an API payload directly from the supplied year-labelled CSVs.
+
+    No missing values are interpolated: a metric is null when that year has no
+    corresponding source file.
+    """
+    annual, by_year = [], {}
+    for year, sources in settings.EDUCATION_MULTI_YEAR_FILES.items():
+        school_path, college_path = first_existing(sources.get("schools", [])), first_existing(sources.get("colleges", []))
+        districts, school_has_colleges = {}, False
+        def district_for(raw_name):
+            name = multi_name(raw_name)
+            return districts.setdefault(name, {"name": name, "slug": slugify(name), "school_distribution": {}, "enrollment_distribution": {}, "college_distribution": {}, "college_seat_distribution": {}})
+        if school_path:
+            with school_path.open(encoding="utf-8-sig", newline="") as source:
+                for row in csv.DictReader(source):
+                    if not row.get("Districts"):
+                        continue
+                    item = district_for(row["Districts"])
+                    if "Degree Colleges" in row:
+                        school_has_colleges = True
+                    for label, (count_field, enrollment_field) in MULTI_SCHOOL_FIELDS.items():
+                        if count_field in row:
+                            item["school_distribution"][label] = multi_number(row.get(count_field))
+                        if enrollment_field and enrollment_field in row:
+                            item["enrollment_distribution"][label] = multi_number(row.get(enrollment_field))
+                    for label, (count_field, seats_field) in MULTI_COLLEGE_FIELDS.items():
+                        if count_field in row:
+                            item["college_distribution"][label] = multi_number(row.get(count_field))
+                        if seats_field and seats_field in row:
+                            item["college_seat_distribution"][label] = multi_number(row.get(seats_field))
+        if college_path:
+            with college_path.open(encoding="utf-8-sig", newline="") as source:
+                for row in csv.DictReader(source):
+                    if not row.get("Districts"):
+                        continue
+                    item = district_for(row["Districts"])
+                    for label, (count_field, seats_field) in MULTI_COLLEGE_FIELDS.items():
+                        if count_field in row:
+                            item["college_distribution"][label] = multi_number(row.get(count_field))
+                        if seats_field and seats_field in row:
+                            item["college_seat_distribution"][label] = multi_number(row.get(seats_field))
+        for item in districts.values():
+            item["total_schools"] = sum(item["school_distribution"].values()) if school_path else None
+            item["total_enrollment"] = sum(item["enrollment_distribution"].values()) if school_path else None
+            item["total_colleges"] = sum(item["college_distribution"].values()) if (school_has_colleges or college_path) else None
+            item["total_college_seats"] = sum(item["college_seat_distribution"].values()) if (school_has_colleges or college_path) else None
+            item["literacy_rate"] = item["male_literacy_rate"] = item["female_literacy_rate"] = None
+        rows = sorted(districts.values(), key=lambda item: item["name"])
+        for index, item in enumerate(sorted([item for item in rows if item["total_enrollment"] is not None], key=lambda item: -item["total_enrollment"]), 1):
+            item["state_rank"] = index
+        availability = {"schools": bool(school_path), "enrollment": bool(school_path), "colleges": bool(school_has_colleges or college_path), "college_seats": bool(school_has_colleges or college_path), "literacy": False}
+        total = lambda field: sum(item[field] or 0 for item in rows) if availability.get({"total_schools": "schools", "total_enrollment": "enrollment", "total_colleges": "colleges", "total_college_seats": "college_seats"}[field]) else None
+        categories = lambda field: {key: sum(item[field].get(key, 0) for item in rows) for key in sorted({key for item in rows for key in item[field]})}
+        summary = {"year": year, "district_count": len(rows), "availability": availability, "total_schools": total("total_schools"), "total_enrollment": total("total_enrollment"), "total_colleges": total("total_colleges"), "total_college_seats": total("total_college_seats"), "school_categories": categories("school_distribution"), "college_categories": categories("college_distribution"), "districts": rows}
+        annual.append(summary)
+        by_year[year] = summary
+    return {"years": [item["year"] for item in annual], "annual": annual, "by_year": by_year, "literacy_note": "No year-labelled literacy dataset was supplied, so literacy is not calculated or displayed."}
 
 
 def education_score(district, maxima):
@@ -117,6 +222,11 @@ def overview(request):
         "female_literacy_rate": round(female_literate / female_population * 100, 2) if female_population else 0,
         "districts": payload,
     })
+
+
+@api_view(["GET"])
+def multi_year_overview(request):
+    return Response(multi_year_payload())
 
 
 def serialize_dropout(record, rank=None):

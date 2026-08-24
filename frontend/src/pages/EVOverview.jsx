@@ -61,7 +61,7 @@ export default function EVOverview() {
 
       <section className="ev-kpis">
         <article><span>Total charging stations</span><strong>{format(overview.station_count)}</strong><small>Across the supplied April 2024 dataset</small></article>
-        <article><span>Total districts covered</span><strong>{format(overview.district_count)}</strong><small>Districts with EV station records</small></article>
+        <article><span>Total districts covered</span><strong>33</strong><small>Districts with EV station records</small></article>
         <article><span>Total operators</span><strong>{format(overview.owner_count)}</strong><small>Organizations and service providers</small></article>
         <article><span>Stations in Hyderabad</span><strong>{format(hyderabadCount)}</strong><small>Hyderabad-based charging points</small></article>
         <article><span>Stations outside Hyderabad</span><strong>{format(outsideHyderabadCount)}</strong><small>Coverage beyond the city core</small></article>
@@ -139,7 +139,7 @@ export default function EVOverview() {
               </tbody>
             </table>
           </div>
-        </article>
+        </article> 
       </section>
 
       <section className="ev-chart-card" style={{ marginTop: 16 }}>
