@@ -57,7 +57,7 @@ def multi_year_payload():
     annual, by_year = [], {}
     for year, sources in settings.EDUCATION_MULTI_YEAR_FILES.items():
         school_path, college_path = first_existing(sources.get("schools", [])), first_existing(sources.get("colleges", []))
-        districts, school_has_colleges = {}, False
+        districts, school_has_colleges, has_college_seats = {}, False, False
         def district_for(raw_name):
             name = multi_name(raw_name)
             return districts.setdefault(name, {"name": name, "slug": slugify(name), "school_distribution": {}, "enrollment_distribution": {}, "college_distribution": {}, "college_seat_distribution": {}})
@@ -75,10 +75,11 @@ def multi_year_payload():
                         if enrollment_field and enrollment_field in row:
                             item["enrollment_distribution"][label] = multi_number(row.get(enrollment_field))
                     for label, (count_field, seats_field) in MULTI_COLLEGE_FIELDS.items():
-                        if count_field in row:
+                        if count_field in row and str(row.get(count_field) or "").strip():
                             item["college_distribution"][label] = multi_number(row.get(count_field))
-                        if seats_field and seats_field in row:
+                        if seats_field and seats_field in row and str(row.get(seats_field) or "").strip():
                             item["college_seat_distribution"][label] = multi_number(row.get(seats_field))
+                            has_college_seats = True
         if college_path:
             with college_path.open(encoding="utf-8-sig", newline="") as source:
                 for row in csv.DictReader(source):
@@ -86,20 +87,21 @@ def multi_year_payload():
                         continue
                     item = district_for(row["Districts"])
                     for label, (count_field, seats_field) in MULTI_COLLEGE_FIELDS.items():
-                        if count_field in row:
+                        if count_field in row and str(row.get(count_field) or "").strip():
                             item["college_distribution"][label] = multi_number(row.get(count_field))
-                        if seats_field and seats_field in row:
+                        if seats_field and seats_field in row and str(row.get(seats_field) or "").strip():
                             item["college_seat_distribution"][label] = multi_number(row.get(seats_field))
+                            has_college_seats = True
         for item in districts.values():
             item["total_schools"] = sum(item["school_distribution"].values()) if school_path else None
             item["total_enrollment"] = sum(item["enrollment_distribution"].values()) if school_path else None
             item["total_colleges"] = sum(item["college_distribution"].values()) if (school_has_colleges or college_path) else None
-            item["total_college_seats"] = sum(item["college_seat_distribution"].values()) if (school_has_colleges or college_path) else None
+            item["total_college_seats"] = sum(item["college_seat_distribution"].values()) if has_college_seats else None
             item["literacy_rate"] = item["male_literacy_rate"] = item["female_literacy_rate"] = None
         rows = sorted(districts.values(), key=lambda item: item["name"])
         for index, item in enumerate(sorted([item for item in rows if item["total_enrollment"] is not None], key=lambda item: -item["total_enrollment"]), 1):
             item["state_rank"] = index
-        availability = {"schools": bool(school_path), "enrollment": bool(school_path), "colleges": bool(school_has_colleges or college_path), "college_seats": bool(school_has_colleges or college_path), "literacy": False}
+        availability = {"schools": bool(school_path), "enrollment": bool(school_path), "colleges": bool(school_has_colleges or college_path), "college_seats": has_college_seats, "literacy": False}
         total = lambda field: sum(item[field] or 0 for item in rows) if availability.get({"total_schools": "schools", "total_enrollment": "enrollment", "total_colleges": "colleges", "total_college_seats": "college_seats"}[field]) else None
         categories = lambda field: {key: sum(item[field].get(key, 0) for item in rows) for key in sorted({key for item in rows for key in item[field]})}
         summary = {"year": year, "district_count": len(rows), "availability": availability, "total_schools": total("total_schools"), "total_enrollment": total("total_enrollment"), "total_colleges": total("total_colleges"), "total_college_seats": total("total_college_seats"), "school_categories": categories("school_distribution"), "college_categories": categories("college_distribution"), "districts": rows}
