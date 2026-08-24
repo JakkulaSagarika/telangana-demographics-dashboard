@@ -1,4 +1,4 @@
-# Telangana Demographics Dashboard
+# Telangana Analytics Dashboard
 
 A React + Vite dashboard backed by Django REST Framework and SQLite. The repository includes the NIC birth/death workbook and Telangana district GeoJSON boundaries, so a fresh clone starts with data and a map on Windows, macOS, and Linux.
 
