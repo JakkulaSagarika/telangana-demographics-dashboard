@@ -88,3 +88,23 @@ class EducationDropout(models.Model):
 
     class Meta:
         ordering = ("name",)
+
+
+class EducationAnnualDistrict(models.Model):
+    """Year-labelled school and college data imported from bundled CSV files."""
+
+    year = models.CharField(max_length=20)
+    name = models.CharField(max_length=100)
+    slug = models.SlugField(max_length=120)
+    total_schools = models.PositiveIntegerField(null=True, blank=True)
+    total_enrollment = models.PositiveIntegerField(null=True, blank=True)
+    total_colleges = models.PositiveIntegerField(null=True, blank=True)
+    total_college_seats = models.PositiveIntegerField(null=True, blank=True)
+    school_distribution = models.JSONField(default=dict)
+    enrollment_distribution = models.JSONField(default=dict)
+    college_distribution = models.JSONField(default=dict)
+    college_seat_distribution = models.JSONField(default=dict)
+
+    class Meta:
+        ordering = ("year", "name")
+        constraints = [models.UniqueConstraint(fields=("year", "slug"), name="education_annual_district_year_slug")]

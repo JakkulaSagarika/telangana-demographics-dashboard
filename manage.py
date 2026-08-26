@@ -20,6 +20,15 @@ def main():
             "Django is unavailable. Activate your virtual environment and run "
             "'pip install -r requirements.txt'."
         ) from error
+    # `runserver` is the normal backend startup command documented below.  Run
+    # migrations first so a fresh clone receives SQLite tables and bundled data
+    # without a separate import or seed command.  The post_migrate receivers
+    # use idempotent update_or_create imports.
+    if len(sys.argv) > 1 and sys.argv[1] == "runserver" and os.environ.get("RUN_MAIN") != "true":
+        import django
+        from django.core.management import call_command
+        django.setup()
+        call_command("migrate", interactive=False, verbosity=0)
     execute_from_command_line(sys.argv)
 
 

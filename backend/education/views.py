@@ -5,7 +5,7 @@ from django.conf import settings
 from django.utils.text import slugify
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import EducationDistrict, EducationDropout
+from .models import EducationAnnualDistrict, EducationDistrict, EducationDropout
 
 
 MULTI_SCHOOL_FIELDS = {
@@ -48,7 +48,7 @@ def first_existing(paths):
     return next((Path(path) for path in paths if Path(path).exists()), None)
 
 
-def multi_year_payload():
+def read_multi_year_payload():
     """Build an API payload directly from the supplied year-labelled CSVs.
 
     No missing values are interpolated: a metric is null when that year has no
@@ -105,6 +105,45 @@ def multi_year_payload():
         total = lambda field: sum(item[field] or 0 for item in rows) if availability.get({"total_schools": "schools", "total_enrollment": "enrollment", "total_colleges": "colleges", "total_college_seats": "college_seats"}[field]) else None
         categories = lambda field: {key: sum(item[field].get(key, 0) for item in rows) for key in sorted({key for item in rows for key in item[field]})}
         summary = {"year": year, "district_count": len(rows), "availability": availability, "total_schools": total("total_schools"), "total_enrollment": total("total_enrollment"), "total_colleges": total("total_colleges"), "total_college_seats": total("total_college_seats"), "school_categories": categories("school_distribution"), "college_categories": categories("college_distribution"), "districts": rows}
+        annual.append(summary)
+        by_year[year] = summary
+    return {"years": [item["year"] for item in annual], "annual": annual, "by_year": by_year, "literacy_note": "No year-labelled literacy dataset was supplied, so literacy is not calculated or displayed."}
+
+
+def import_multi_year_data():
+    """Upsert every bundled annual CSV row into SQLite without duplicates."""
+    payload = read_multi_year_payload()
+    for annual in payload["annual"]:
+        for district in annual["districts"]:
+            EducationAnnualDistrict.objects.update_or_create(
+                year=annual["year"], slug=district["slug"],
+                defaults={key: district[key] for key in (
+                    "name", "total_schools", "total_enrollment", "total_colleges", "total_college_seats",
+                    "school_distribution", "enrollment_distribution", "college_distribution", "college_seat_distribution",
+                )},
+            )
+    return len(payload["years"])
+
+
+def multi_year_payload():
+    """Serialize the idempotently seeded annual SQLite records for the API."""
+    annual, by_year = [], {}
+    for year in settings.EDUCATION_MULTI_YEAR_FILES:
+        rows = list(EducationAnnualDistrict.objects.filter(year=year))
+        districts = [{
+            "name": row.name, "slug": row.slug, "total_schools": row.total_schools,
+            "total_enrollment": row.total_enrollment, "total_colleges": row.total_colleges,
+            "total_college_seats": row.total_college_seats, "school_distribution": row.school_distribution,
+            "enrollment_distribution": row.enrollment_distribution, "college_distribution": row.college_distribution,
+            "college_seat_distribution": row.college_seat_distribution, "literacy_rate": None,
+            "male_literacy_rate": None, "female_literacy_rate": None,
+        } for row in rows]
+        for index, district in enumerate(sorted([item for item in districts if item["total_enrollment"] is not None], key=lambda item: -item["total_enrollment"]), 1):
+            district["state_rank"] = index
+        availability = {"schools": any(item["total_schools"] is not None for item in districts), "enrollment": any(item["total_enrollment"] is not None for item in districts), "colleges": any(item["total_colleges"] is not None for item in districts), "college_seats": any(item["total_college_seats"] is not None for item in districts), "literacy": False}
+        categories = lambda field: {key: sum(item[field].get(key, 0) for item in districts) for key in sorted({key for item in districts for key in item[field]})}
+        total = lambda field: sum(item[field] or 0 for item in districts) if availability[{"total_schools": "schools", "total_enrollment": "enrollment", "total_colleges": "colleges", "total_college_seats": "college_seats"}[field]] else None
+        summary = {"year": year, "district_count": len(districts), "availability": availability, "total_schools": total("total_schools"), "total_enrollment": total("total_enrollment"), "total_colleges": total("total_colleges"), "total_college_seats": total("total_college_seats"), "school_categories": categories("school_distribution"), "college_categories": categories("college_distribution"), "districts": districts}
         annual.append(summary)
         by_year[year] = summary
     return {"years": [item["year"] for item in annual], "annual": annual, "by_year": by_year, "literacy_note": "No year-labelled literacy dataset was supplied, so literacy is not calculated or displayed."}

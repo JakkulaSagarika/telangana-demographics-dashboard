@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -19,21 +20,20 @@ DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_WORKBOOK_PATH = DATA_DIR / "telangana_districts.xlsx"
 EDUCATION_DATA_DIR = DATA_DIR / "education"
 EDUCATION_LITERACY_CSV_PATH = EDUCATION_DATA_DIR / "literacy_literacy_rate.csv"
-EDUCATION_SCHOOLS_CSV_PATH = EDUCATION_DATA_DIR / "schools_colleges_enrollment_seats.csv"
+EDUCATION_SCHOOLS_CSV_PATH = EDUCATION_DATA_DIR / "schools_colleges_enrollment_seats 2016-17.csv"
 EDUCATION_DROPOUT_CSV_PATH = EDUCATION_DATA_DIR / "telangana_dropout_data_2021_22.csv"
-# These paths deliberately point only at the education files supplied for the
-# multi-year dashboard.  A project-local copy takes precedence when one is
-# supplied later; the Downloads location supports the files currently provided.
+# Every source used by the education dashboard is bundled under data/education.
+# Paths are intentionally project-relative so a clone works on any machine.
 EDUCATION_MULTI_YEAR_FILES = {
     "2016-17": {"schools": [EDUCATION_DATA_DIR / "schools_colleges_enrollment_seats 2016-17.csv"]},
-    "2017-18": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2017-18.csv", Path.home() / "Downloads" / "Telangana_Schools_2017-18.csv"]},
+    "2017-18": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2017-18.csv"]},
     "2018-19": {
-        "schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2018-19.csv", Path.home() / "Downloads" / "Telangana_Schools_2018-19.csv"],
-        "colleges": [EDUCATION_DATA_DIR / "Telangana_College_Data_2018-19_CORRECTED.csv", Path.home() / "Downloads" / "Telangana_College_Data_2018-19_CORRECTED.csv"],
+        "schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2018-19.csv"],
+        "colleges": [EDUCATION_DATA_DIR / "Telangana_College_Data_2018-19_CORRECTED.csv"],
     },
-    "2019-20": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2019-20.csv", Path.home() / "Downloads" / "Telangana_Schools_2019-20.csv"]},
-    "2020-21": {"colleges": [EDUCATION_DATA_DIR / "Telangana_College_Data_2020-21.csv", Path.home() / "Downloads" / "Telangana_College_Data_2020-21.csv"]},
-    "2021-22": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2021-22.csv", Path.home() / "Downloads" / "Telangana_Schools_2021-22.csv"]},
+    "2019-20": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2019-20.csv"]},
+    "2020-21": {"colleges": [EDUCATION_DATA_DIR / "Telangana_College_Data_2020-21.csv"]},
+    "2021-22": {"schools": [EDUCATION_DATA_DIR / "Telangana_Schools_2021-22.csv"]},
 }
 EV_CHARGING_STATIONS_CSV_PATH = DATA_DIR / "ev" / "EV_Charging_stations_details_April_2024.csv"
 DISTRICT_GEOJSON_PATH = PROJECT_ROOT / "frontend" / "public" / "data" / "telangana-districts.geojson"
@@ -103,7 +103,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # Override only for isolated tests; the default remains the project DB.
+        'NAME': Path(os.environ.get('TELANGANA_SQLITE_PATH', BASE_DIR / 'db.sqlite3')),
     }
 }
 
