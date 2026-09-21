@@ -1,4 +1,5 @@
-import { NavLink, Route, Routes } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Navigate, NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import Home from './pages/Home'
 import DistrictDetail from './pages/DistrictDetail'
 import Rankings from './pages/Rankings'
@@ -24,6 +25,8 @@ import EVNearbyStations from './pages/EVNearbyStations'
 import EVRoutePlanner from './pages/EVRoutePlanner'
 import EVStations from './pages/EVStations'
 import OperatorAnalytics from './pages/OperatorAnalytics'
+import Auth from './pages/Auth'
+import { getCurrentUser, signOut } from './services/auth'
 
 const links = [['/demographics', '⌂', 'Dashboard'], ['/demographics/districts', '◫', 'Districts'], ['/demographics/rankings', '↗', 'Rankings'], ['/demographics/compare', '⇄', 'Compare Districts'], ['/demographics/district-table', '▤', 'District Table'], ['/demographics/gram-panchayats', '⌘', 'Gram Panchayats'], ['/demographics/municipalities', '⌂', 'Municipalities'], ['/demographics/municipal-corporations', '▥', 'Municipal Corporations'], ['/reports', '◷', 'Reports'], ['/about', 'ⓘ', 'About']]
 
@@ -43,4 +46,26 @@ function EVLayout() {
   return <div className="portal-shell ev-shell"><aside className="side-nav"><NavLink className="portal-brand" to="/"><span>TS</span><b>Telangana</b><small>EV infrastructure</small></NavLink><nav>{evLinks.map(([to, icon, label]) => <NavLink key={to} to={to} end={to === '/ev'}><i>{icon}</i>{label}</NavLink>)}</nav><div className="side-source"><b>NIC records</b><span>April 2024 EV charging data<br/>Statewide coverage</span></div></aside><div className="app-shell"><header className="site-header"><div><p className="eyebrow">Government of Telangana</p><strong>EV infrastructure dashboard</strong></div><NavLink className="header-tag" to="/">← Portal home</NavLink></header><main><Routes><Route index element={<EVOverview/>}/><Route path="nearby" element={<EVNearbyStations/>}/><Route path="stations" element={<EVStations/>}/><Route path="route-planner" element={<EVRoutePlanner/>}/><Route path="map" element={<EVMap/>}/><Route path="districts/:slug" element={<EVDistrictAnalytics/>}/><Route path="stations/:slug" element={<EVStationDetail/>}/><Route path="operator-analytics" element={<OperatorAnalytics />} /><Route path="*" element={<EVOverview/>}/></Routes></main></div></div>
 }
 
-export default function App() { return <Routes><Route path="/" element={<PortalLanding/>}/><Route path="/demographics/*" element={<DemographicsLayout/>}/><Route path="/education/*" element={<EducationLayout/>}/><Route path="/ev/*" element={<EVLayout/>}/><Route path="*" element={<PortalLanding/>}/></Routes> }
+function LogoutButton({ onLoggedOut }) {
+  const [busy, setBusy] = useState(false)
+  const navigate = useNavigate()
+  const logout = async () => {
+    setBusy(true)
+    try { await signOut(); onLoggedOut(); navigate('/login', { replace: true }) } finally { setBusy(false) }
+  }
+  return <button className="portal-logout" type="button" onClick={logout} disabled={busy}>{busy ? 'Signing out…' : 'Log out'}</button>
+}
+
+function RequireAuth({ status, onLoggedOut, children }) {
+  const location = useLocation()
+  if (status === 'checking') return <div className="auth-loading" aria-live="polite">Checking your secure session…</div>
+  if (status === 'signed-out') return <Navigate to="/login" replace state={{ from: location }} />
+  return <><LogoutButton onLoggedOut={onLoggedOut} />{children}</>
+}
+
+export default function App() {
+  const [status, setStatus] = useState('checking')
+  useEffect(() => { getCurrentUser().then((user) => setStatus(user ? 'signed-in' : 'signed-out')).catch(() => setStatus('signed-out')) }, [])
+  const protectedRoute = (page) => <RequireAuth status={status} onLoggedOut={() => setStatus('signed-out')}>{page}</RequireAuth>
+  return <Routes><Route path="/login" element={status === 'signed-in' ? <Navigate to="/" replace /> : <Auth onAuthenticated={() => setStatus('signed-in')} />}/><Route path="/auth" element={<Navigate to="/login" replace />}/><Route path="/" element={protectedRoute(<PortalLanding/>)} /><Route path="/demographics/*" element={protectedRoute(<DemographicsLayout/>)} /><Route path="/education/*" element={protectedRoute(<EducationLayout/>)} /><Route path="/ev/*" element={protectedRoute(<EVLayout/>)} /><Route path="*" element={protectedRoute(<PortalLanding/>)} /></Routes>
+}

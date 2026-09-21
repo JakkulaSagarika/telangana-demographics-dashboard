@@ -13,9 +13,12 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = BASE_DIR.parent
+load_dotenv(PROJECT_ROOT / ".env")
 DATA_DIR = PROJECT_ROOT / "data"
 DEFAULT_WORKBOOK_PATH = DATA_DIR / "telangana_districts.xlsx"
 EDUCATION_DATA_DIR = DATA_DIR / "education"
@@ -49,6 +52,7 @@ SECRET_KEY = 'django-insecure-auqhq4kd50$1yacad4u4-io(ewf&82bp9o&esk5rpge)31!8d$
 DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "testserver"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173"]
 
 
 # Application definition
@@ -62,6 +66,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'accounts.apps.AccountsConfig',
     'demographics.apps.DemographicsConfig',
     'education.apps.EducationConfig',
     'ev.apps.EvConfig',
@@ -144,3 +149,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+SESSION_COOKIE_SECURE = os.environ.get("DJANGO_SECURE_COOKIES") == "1"
+CSRF_COOKIE_SECURE = os.environ.get("DJANGO_SECURE_COOKIES") == "1"
+SESSION_COOKIE_HTTPONLY = True
+SESSION_COOKIE_SAMESITE = "Lax"
+CSRF_COOKIE_SAMESITE = "Lax"
